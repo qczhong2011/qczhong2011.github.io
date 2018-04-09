@@ -290,6 +290,7 @@ a:hover {
 blockquote {
   margin: 0;
   padding: 0;
+  background: #fcfcfc;
 }
 img {
   display: block;
@@ -1936,7 +1937,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffdf;
+  background: #4ac193;
 }
 .links-of-blogroll {
   font-size: 13px;
