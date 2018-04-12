@@ -48,7 +48,7 @@ footer:
   since: 2018
 
   # Icon between year and copyright info.
-  icon: user
+  icon: heart
 
   # If not defined, will be used `author` from Hexo main config.
   copyright: ZHONG Qichao
@@ -239,9 +239,9 @@ post_meta:
 post_wordcount:
   item_text: true
   wordcount: true
-  min2read: true
-  totalcount: true
-  separated_meta: true
+  min2read: false
+  totalcount: false
+  separated_meta: false
 
 # Wechat Subscriber
 # 该功能太占用位置,比较鸡肋
@@ -580,11 +580,11 @@ busuanzi_count:
   enable: true
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i> 本网站访问人数
-  site_uv_footer:
+  site_uv_header: <i class="fa fa-user"></i> 你是第<b>
+  site_uv_footer: </b>个到访的小伙伴
   # custom pv span for the whole site
-  site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i> 本网站总访问量
+  site_pv: false
+  site_pv_header: <i class="fa fa-eye"></i> 站点访问总量
   site_pv_footer:
   # custom pv span for one page only
   page_pv: false
