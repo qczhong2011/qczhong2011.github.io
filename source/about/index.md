@@ -1,5 +1,6 @@
 ---
 title: 关于我
+layout:
 date: 2018-04-03 16:14:11
 comments: false
 ---
