@@ -8,7 +8,7 @@ subtitle:
 description: 点点滴滴在此间
 keywords:
 author: ZHONG Qichao
-language: zh-Hans
+language: zh-CN
 timezone:
 headertitle: 映启博客
 
@@ -76,7 +76,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: next
+theme: next_new
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
