@@ -131,6 +131,17 @@
   };
 </script>
 
+<script>
+    (function(){
+        if('{{ page.password }}'){
+            if (prompt('请输入访问密码') !== '{{ page.password }}'){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
 {% if theme.custom_file_path.head %}
   {% set custom_head = '../../../../../' + theme.custom_file_path.head %}
 {% else %}
