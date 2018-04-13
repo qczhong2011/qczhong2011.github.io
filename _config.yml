@@ -3,15 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 映啟博客
-subtitle: 映出精彩
-description: 点点滴滴在此间
+title: ZingQi.COM
+subtitle: 个人空间站
+description: for better life
 keywords:
 author: ZHONG Qichao
 #language: zh-CN
 language: zh-Hans
 timezone:
-headertitle: 映啟博客
+headertitle: 映七空间
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

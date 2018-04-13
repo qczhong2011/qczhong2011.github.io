@@ -353,9 +353,13 @@
     {% endif %}
 
     {% if theme.post_copyright.enable and not is_index %}
-      <div>
-        {% include 'post-copyright.swig' with { post: post } %}
-      </div>
+      {######################}
+      {#####Add By Qichao####}
+      {% if post.copyright %}
+        <div>
+          {% include 'post-copyright.swig' with { post: post } %}
+        </div>
+      {% endif %}
     {% endif %}
 
     <footer class="post-footer">

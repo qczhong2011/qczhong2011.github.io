@@ -4,9 +4,9 @@ date: 2018-04-03 17:00:43
 update: 2018-04-11 22:15:44
 tags: 前言
 categories: 
-    - 随笔文章
+    - 随笔
 comments: false
-copyright: false
+copyright: true
 password:
 top: true
 photos:
