@@ -1,9 +1,11 @@
 ---
-title: Linux 源码安装及配置Git
+title: Linux下源码安装及配置Git
 copyright: true
 comments: false
 date: 2018-04-14 14:44:36
-tags: Git
+tags: 
+    - Git
+    - ssh-keygen
 categories: 技术文章
 password:
 photos:
@@ -21,7 +23,7 @@ layout:
 在官方安装介绍里面, 包含了源码安装方式和二进制安装方式, [传送门](https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git)
 本文主要记录在Linxu中使用源码安装和配置命令
 
-## 准备工作
+# 准备工作
 
 如果当前是root用户,那么最好创建一个 **git** 用户, 以git用户操作下面的步骤
 
@@ -54,7 +56,7 @@ git   ALL=(ALL) NOPASSWD: ALL
 $ su git
 $ cd ~
 ```
-## 源码安装
+# 源码安装
  - 安装依赖
 ```
 $ yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
@@ -69,7 +71,7 @@ $ sudo make prefix=/usr/local install
 ```
  - Git tar包的下载链接 [Linxu下载](https://mirrors.edge.kernel.org/pub/software/scm/git/)
    
-## Git配置
+# Git配置
 
  - 配置用户名和邮箱
 ```bash
@@ -104,7 +106,7 @@ $ git commit -m "comments"
 $ git push origin master
 ```
 
-## 创建证书免密登录
+# 创建证书免密登录
 
 把需要免密登录的公钥写入到 .ssh/authorized_keys文件中即可
 - 第一次登录会需要记录IP地址
