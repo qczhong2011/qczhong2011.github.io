@@ -15,7 +15,8 @@ headertitle: 映七空间
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.zingqi.com
+#url: https://www.zingqi.com
+url: https://qcc.one
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :year-:month-:day-:title/
@@ -83,8 +84,10 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:qczhong2011/qczhong2011.github.io.git
-  branch: master
+  repo: 
+    github: git@github.com:qczhong2011/qczhong2011.github.io.git,master
+    gitecs: git@120.79.138.59:/home/git/zingqi.git,master
+  #branch: master
   message:
   
 server:

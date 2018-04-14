@@ -23,8 +23,8 @@ photos:
   
 
  - 基于 [Hexo](https://hexo.io/zh-cn/docs/ "Hexo") + [Github Pages](https://pages.github.com/ "GithubPages") + 域名解析 建立起了这个网站
- - 基于 Hexo + [nexT](http://theme-next.iissnan.com/tag-plugins.html "nexT") 主题修改成自己喜欢的风格, 添加[留言板](https://www.zingqi.com/board/ "留言板")和[相册](https://www.zingqi.com/photos/ "相册")功能
- - 挑选合适的域名[www.zingqi.com](https://www.zingqi.com "qcczone") 
+ - 基于 Hexo + [nexT](http://theme-next.iissnan.com/tag-plugins.html "nexT") 主题修改成自己喜欢的风格, 添加[留言板](https://qcc.one/board/ "留言板")和[相册](https://qcc.one/photos/ "相册")功能
+ - 挑选合适的域名[qcc.one](https://qcc.one "qcczone") 
  - 自己制作网站的Favicon以及头像
 
 ##  写些什么
