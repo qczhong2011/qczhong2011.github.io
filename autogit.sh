@@ -14,7 +14,7 @@ echo "----------------------------------------------"
 git push origin hexo
 
 
-if [ x"$2" != x ]; then
+if [ x"$2" == x ]; then
 	echo "Just want to push Config"
 	exit 0
 fi
