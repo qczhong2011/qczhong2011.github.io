@@ -7,7 +7,7 @@
 
 <html class="{{ html_class | lower }}" lang="{{ config.language }}">
 <head>
-  {% include '_partials/head.swig' %}
+  {{ partial('_partials/head.swig', {}, {cache: theme.cache.enable}) }}
   <title>{% block title %}{% endblock %}</title>
   {% include '_third-party/analytics/index.swig' %}
 </head>
@@ -22,12 +22,8 @@
   <div class="{{ container_class }} {% block page_class %}{% endblock %}">
     <div class="headband"></div>
 
-  <!--Add by qichao 20180403
-    <a href="https://github.com/qczhong2011"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
-  -->
-
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"> {%- include '_partials/header.swig' %} </div>
+      <div class="header-inner"> {{ partial('_partials/header.swig', {}, {cache: theme.cache.enable}) }} </div>
     </header>
 
     <main id="main" class="main">
@@ -47,7 +43,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        {% include '_partials/footer.swig' %}
+        {{ partial('_partials/footer.swig', {}, {cache: theme.cache.enable}) }}
         {% include '_third-party/analytics/analytics-with-widget.swig' %}
         {% block footer %}{% endblock %}
       </div>
@@ -95,11 +91,10 @@
 
   <!-- 添加copy功能 -->
   {% include '_custom/custom.swig' %}
+  
   <!-- 页面点击小红心 -->
   <script type="text/javascript" src="/js/src/clicklove.js"></script>
-  <!-- 萌宠 
-  {{ live2d() }}
-  -->
+
 
 </body>
 </html>
