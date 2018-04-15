@@ -100,11 +100,10 @@ menu:
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
-
-# Enable/Disable menu icons.
-menu_icons:
-  enable: true
-
+# Enable/Disable menu icons / item badges.
+menu_settings:
+  icons: true
+  badges: false
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -122,6 +121,9 @@ scheme: Mist
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
+
+# Posts / Categories / Tags in sidebar.
+site_state: true
 
 # Social Links.
 # Usage: `Key: permalink || icon`
@@ -146,13 +148,18 @@ social_icons:
   icons_only: false
   transition: false
 
+# Follow me on GitHub banner in right-top corner.
+# Usage: `permalink || title`
+# Value before `||` delimeter is the target permalink.
+# Value after `||` delimeter is the title and aria-label name.
+#github_banner: https://github.com/yourname || Follow me on GitHub
+
 # Blog rolls
 links_icon: link
 links_title: Links
 links_layout: block
 #links_layout: inline
 #links:
-  #cnBeta: https://cnbeta.com
   #Title: http://example.com/
 
 # Sidebar Avatar
@@ -349,7 +356,12 @@ font:
 mathjax:
   enable: false
   per_page: false
-  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  # For newMathJax CDN (cdnjs.cloudflare.com) with fallback to oldMathJax (cdn.mathjax.org).
+  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  # For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com).
+  #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
+  # For automatic detect latest varsion link to MathJax.js and get from CloudFlare.
+  #cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support
 # Dependencies: https://github.com/theme-next/theme-next-han
@@ -371,13 +383,10 @@ baidu_analytics: 2703acd6349cbc8491a7df65a011fb3c
 #www.zingqi.com
 #baidu_analytics: 3cf727f893523222445a7dc74340ee10
 
-# Duoshuo ShortName
-#duoshuo_shortname:
-
 # Disqus
 disqus:
   enable: false
-  shortname: 
+  shortname:
   count: true
 
 # Hypercomments
@@ -445,9 +454,6 @@ gitment:
   ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
-# Share
-#duoshuo_share: true
-
 #Share
 #sharesdk: false
 #shareSDKappkey: 250ed7abb819e
@@ -501,15 +507,6 @@ needmoreshare2:
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
 # application_insights:
-
-# Make duoshuo show UA
-# user_id must NOT be null when admin_enable is true!
-# you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
 
 # Post widgets & FB/VK comments settings.
 # ---------------------------------------------------------------
@@ -622,7 +619,7 @@ algolia_search:
     hits_stats: "${hits} results found in ${time} ms"
 
 # Local search
-# Dependencies: https://github.com/flashlab/hexo-generator-search
+# Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
   enable: true
   # if auto, trigger search by changing input
@@ -666,6 +663,13 @@ tabs:
     labels: true
   border_radius: 0
 
+# Reading progress bar
+# Dependencies: https://github.com/theme-next/theme-next-reading-progress
+reading_progress:
+  enable: false
+  color: "#37c6c0"
+  height: 2px
+
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -691,8 +695,10 @@ motion:
     # Only for Pisces | Gemini.
     sidebar: slideUpIn
 
-# Fancybox
-# Dependencies: https://github.com/theme-next/theme-next-fancybox
+# Fancybox. There is support for old version 2 and new version 3.
+# Please, choose only any one variant, do not need to install both.
+# For install 2.x: https://github.com/theme-next/theme-next-fancybox
+# For install 3.x: https://github.com/theme-next/theme-next-fancybox3
 fancybox: true
 
 # Added switch option for separated repo in 6.0.0.
@@ -732,10 +738,8 @@ canvas_nest: false
 # Dependencies: https://github.com/theme-next/theme-next-three
 # three_waves
 three_waves: false
-
 # canvas_lines
 canvas_lines: false
-
 # canvas_sphere
 canvas_sphere: false
 
@@ -844,7 +848,7 @@ js: js
 images: images
 
 # Theme version
-version: 6.0.0
+version: 6.0.1
 
 # 文章末尾添加“本文结束”标记
 passage_end_tag:

@@ -10,6 +10,10 @@
     {% set post_class = post_class + ' ' + 'post-sticky' %}
   {% endif %}
 
+  {% if theme.reading_progress.enable %}
+    <div class="reading-progress-bar"></div>
+  {% endif %}
+
   <article class="{{ post_class }}" itemscope itemtype="http://schema.org/Article">
   {##################}
   {### POST BLOCK ###}
@@ -118,17 +122,7 @@
           {% endif %}
 
           {% if post.comments %}
-            {% if (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="{{ post.path }}" itemprop="commentCount"></span>
-                </a>
-              </span>
-            {% elseif theme.facebook_comments_plugin.enable %}
+            {% if theme.facebook_comments_plugin.enable %}
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
