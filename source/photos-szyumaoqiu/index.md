@@ -1,24 +1,24 @@
 ---
-title: 深圳羽毛球 20180408
+title: 深圳羽毛球
 date: 2018-04-12 09:45:34
 type: photos
 comments: false
 password:
 ---
 
-
 {% stream %}
   
 {% figure http://wx1.sinaimg.cn/mw690/686ac523gy1fq5o2i58vmj21kw16o1kx.jpg
-    准备 
-    %}   
-   
+    准备 %}   
 {% figure http://wx4.sinaimg.cn/mw690/686ac523gy1fq5o2jfeinj21kw16oaw9.jpg
-    中场 
-    %}
-   
+    中场 %}
 {% figure http://wx2.sinaimg.cn/mw690/686ac523gy1fq5o2knud4j21kw16q16n.jpg
-    休息 
-    %}
+    休息 %}
+{% figure http://p6spipky2.bkt.clouddn.com/qcczone/180414/HFL1DFKj61.jpg?imageslim
+    网前 %}   
+{% figure http://p6spipky2.bkt.clouddn.com/qcczone/180415/hd2LgFiIE0.jpg?imageslim
+    场地 %}
+{% figure http://p6spipky2.bkt.clouddn.com/qcczone/180415/eC7hkmjlH9.jpg?imageslim
+    看你们打 %}
   
 {% endstream %}

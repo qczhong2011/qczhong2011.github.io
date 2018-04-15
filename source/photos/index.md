@@ -15,9 +15,9 @@ comments: false
 -->
 {% figure 
     http://wx1.sinaimg.cn/mw690/686ac523gy1fq2zkxkfcpj21kw16oh0b.jpg
-    [惠州红花湖 ](https://qcc.one/photos-honghuahu/) 
+    [惠州红花湖 ](/photos-honghuahu/) 
     %}   
 {% figure http://wx1.sinaimg.cn/mw690/686ac523gy1fq5o2i58vmj21kw16o1kx.jpg
-    [深圳羽毛球](https://qcc.one/photos-szyumaoqiu/) 
+    [深圳羽毛球](/photos-szyumaoqiu/) 
     %}   
 {% endstream %}
