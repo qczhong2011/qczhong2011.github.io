@@ -66,7 +66,14 @@ footer:
   since: 2018
 
   # Icon between year and copyright info.
-  icon: heart
+  icon: 
+    # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons
+    # `heart` is recommended with animation in red (#ff0000).
+    name: heart
+    # If you want to animate the icon, set it to true.
+    animated: false
+    # Change the color of icon, using Hex Code.
+    color: "#808080"
 
   # If not defined, will be used `author` from Hexo main config.
   copyright: ZHONG Qichao
@@ -117,7 +124,7 @@ menu:
   board: /board/ || commenting
   about: /about/ || user-o
   categories: /categories/ || tasks 
-  tags: /tags/ || tags
+  #tags: /tags/ || tags
   #photos-huonghuahu: /photos-honghuahu/ || photo
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -274,6 +281,11 @@ symbols_count_time:
   awl: 5
   wpm: 200
 
+# Manual define the border radius in codeblock
+# Leave it empty for the default 1
+codeblock:
+  border_radius: 
+
 # Wechat Subscriber
 # 该功能太占用位置,比较鸡肋
 #wechat_subscriber:
@@ -423,7 +435,7 @@ math:
     #cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     # For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com).
     #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
-    # For automatic detect latest version link to MathJax.js and get from CloudFlare.
+    # For automatic detect latest version link to MathJax.js and get from Bootcss.
     #cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
   # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin)
@@ -530,6 +542,7 @@ gitment:
 # Warning: JiaThis does not support https.
 #jiathis:
   ##uid: Get this uid from http://www.jiathis.com/
+
 #add_this_id:
 
 # NeedMoreShare2
@@ -644,7 +657,7 @@ busuanzi_count:
   total_visitors_icon: user
   total_views: true
   total_views_icon: eye
-  post_views: true
+  post_views: false
   post_views_icon: eye
 
 
@@ -938,6 +951,9 @@ vendors:
   # Example: https://cdn.jsdelivr.net/gh/theme-next/theme-next-reading-progress@1.1/reading_progress.min.js
   reading_progress:
 
+  # valine comment
+  # Example: https://cdn.jsdelivr.net/npm/valine@1.1.8/dist/Valine.min.js
+  valine:
 
 # Assets
 css: css
@@ -945,7 +961,7 @@ js: js
 images: images
 
 # Theme version
-version: 6.0.4
+version: 6.1.0
 
 # 文章末尾添加“本文结束”标记
 passage_end_tag:

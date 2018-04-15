@@ -29,6 +29,7 @@ post:
   untitled: 無題
   toc_empty: 見出しがありません
   views: Views
+  comments_count: コメント
   symbols_count: 単語数
   symbols_time: 読書の時間
   total_symbols: 単語の総数
@@ -85,3 +86,7 @@ reward:
   alipay: Alipay
   bitcoin: Bitcoin
 gitmentbutton: Gitment からのコメントを表示
+accessibility:
+  nav_toggle: Toggle navigation bar
+  prev_page: Previous page
+  next_page: Next page
