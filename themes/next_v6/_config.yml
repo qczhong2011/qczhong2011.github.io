@@ -19,13 +19,17 @@ cache:
 # outside theme directory in root `source/_data`, set
 # `styles: source/_data/styles.styl`
 #custom_file_path:
+  # Default paths: layout/_custom/*
   #head: source/_data/head.swig
   #header: source/_data/header.swig
   #sidebar: source/_data/sidebar.swig
 
-  #styles: source/_data/styles.styl
-  #mixins: source/_data/mixins.styl
+  # Default path: source/css/_variables/custom.styl
   #variables: source/_data/variables.styl
+  # Default path: source/css/_mixins/custom.styl
+  #mixins: source/_data/mixins.styl
+  # Default path: source/css/_custom/custom.styl
+  #styles: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -282,8 +286,7 @@ alipay: /images/alipay.jpg
 # Declare license on posts
 post_copyright:
   enable: true
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  license: <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a>
 
 
 # ---------------------------------------------------------------
@@ -378,10 +381,10 @@ font:
 math:
   enable: false
 
-  # Default(false) will load mathjax/katex srcipt EVERY PAGE
-  # If you set to true, you need to add 'mathjax: true' in Front Matter of post
-  # in order to render math equations in post
-  per_page: false
+  # Default(true) will load mathjax/katex script on demand
+  # That is it only render those page who has 'mathjax: true' in Front Matter.
+  # If you set it to false, it will load mathjax/katex srcipt EVERY PAGE.
+  per_page: true
 
   engine: mathjax
   #engine: katex
@@ -470,7 +473,6 @@ valine:
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
-# You can get your Github ID from https://api.github.com/users/<Github username>
 gitment:
   enable: false
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
@@ -669,6 +671,18 @@ local_search:
   trigger: auto
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
+  # unescape html strings to the readable one
+  unescape: false
+
+# Bookmark Support
+# Dependencies: https://github.com/theme-next/theme-next-bookmark
+bookmark:
+  enable: false
+  # if auto
+  #   - save the reading position when closing the page
+  #   - or clicking the bookmark-icon
+  # if manual, only save it by clicking the bookmark-icon
+  save: auto
 
 
 # ---------------------------------------------------------------
@@ -894,7 +908,7 @@ js: js
 images: images
 
 # Theme version
-version: 6.0.1
+version: 6.0.3
 
 # 文章末尾添加“本文结束”标记
 passage_end_tag:
