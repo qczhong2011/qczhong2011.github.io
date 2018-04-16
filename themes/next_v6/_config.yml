@@ -122,8 +122,8 @@ menu:
   photos: /photos/ || photo
   #schedule: /schedule/ || calendar
   board: /board/ || commenting
-  about: /about/ || user-o
   categories: /categories/ || tasks 
+  about: /about/ || user-o
   #tags: /tags/ || tags
   #photos-huonghuahu: /photos-honghuahu/ || photo
   #sitemap: /sitemap.xml || sitemap
