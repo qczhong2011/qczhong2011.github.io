@@ -123,8 +123,8 @@ menu:
   #schedule: /schedule/ || calendar
   board: /board/ || commenting
   categories: /categories/ || tasks 
+  tags: /tags/ || tags
   about: /about/ || user-o
-  #tags: /tags/ || tags
   #photos-huonghuahu: /photos-honghuahu/ || photo
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
