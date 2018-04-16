@@ -3,19 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ZingQi.COM
+title: Zqc.ZONE
 subtitle: 个人空间站
 description: for better life
 keywords:
 author: ZHONG Qichao
 language: zh-CN
 timezone:
-headertitle: 映七空间
+headertitle: ZQC ZONE
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 #url: https://www.zingqi.com
-url: https://qcc.one
+#url: https://qcc.one
+url: https://zqc.zone
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :year-:month-:day-:title/

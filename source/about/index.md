@@ -12,6 +12,6 @@ comments: false
 喜欢看书徒步羽毛球, 喜欢看电影和看足球
 不高不胖, 眉清目不秀, 健健康康
 
-### 站点: [qcc.one](https://qcc.one "qcczone") 
+### 站点: [zqc.zone](https://zqc.zone "zqc zone") 
 
 映七空间
