@@ -654,8 +654,9 @@ firestore:
 busuanzi_count:
   enable: true
   total_visitors: true
-  total_visitors_icon: user
-  total_views: true
+  total_visitors_icon: hand-o-right
+  #total_visitors_icon: hand-o-rightuser
+  total_views: false
   total_views_icon: eye
   post_views: false
   post_views_icon: eye
