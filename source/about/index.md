@@ -11,7 +11,3 @@ comments: false
 伪90后一枚, Android开发工程师, 目前在某创业公司码字
 喜欢看书徒步羽毛球, 喜欢看电影和看足球
 不高不胖, 眉清目不秀, 健健康康
-
-### 站点: [zqc.zone](https://zqc.zone "zqc zone") 
-
-映七空间

@@ -24,7 +24,7 @@ photos:
 
  - 基于 [Hexo](https://hexo.io/zh-cn/docs/ "Hexo") + [Github Pages](https://pages.github.com/ "GithubPages") + 域名解析 建立起了这个网站
  - 基于 Hexo + [nexT](http://theme-next.iissnan.com/tag-plugins.html "nexT") 主题修改成自己喜欢的风格, 添加[留言板](/board/ "留言板")和[相册](/photos/ "相册")功能
- - 挑选合适的域名[zqc.zone](https://zqc.zone "qcczone") 
+ - 挑选合适的域名
  - 自己制作网站的Favicon以及头像
 
 ##  写些什么
