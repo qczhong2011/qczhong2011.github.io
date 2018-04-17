@@ -1,7 +1,7 @@
 ---
 title: 写在前面
 date: 2018-04-03 17:00:43
-update: 2018-04-11 22:15:44
+updated: 2018-04-11 22:15:44
 tags: hello
 categories: 
     - 随笔
