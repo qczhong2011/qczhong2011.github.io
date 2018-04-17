@@ -1,7 +1,7 @@
 ---
 title:
   archive: 归档
-  category: 日志
+  category: 日志分类
   tag: 标签
   schedule: 日程表
 
@@ -69,7 +69,7 @@ state:
   posts: 归档
   pages: 页面
   tags: 标签
-  categories: 日志
+  categories: 日志分类
 search:
   placeholder: 搜索...
 cheers:
