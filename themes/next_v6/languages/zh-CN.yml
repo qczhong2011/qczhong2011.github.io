@@ -1,8 +1,7 @@
 ---
 title:
-#  archive: 归档
-  archive: 日志
-  category: 分类
+  archive: 归档
+  category: 日志
   tag: 标签
   schedule: 日程表
 
@@ -10,9 +9,8 @@ author: 博主
 
 menu:
   home: 主页
-#  archives: 归档
-  archives: 日志
-  categories: 分类
+  archives: 归档
+  categories: 日志
   tags: 标签
   about: 关于
   search: 搜索
@@ -64,16 +62,16 @@ counter:
   categories:
     zero: 暂无分类
     one: 目前共计 1 个分类
-    other: "目前共计 %d 个分类"
+    other: "目前共计 %d 个日志分类"
   archive_posts:
     zero: 暂无日志。
     one: 目前共计 1 篇日志。
     other: "目前共计 %d 篇日志。"
 state:
-  posts: 日志
+  posts: 归档
   pages: 页面
   tags: 标签
-  categories: 分类
+  categories: 日志
 search:
   placeholder: 搜索...
 cheers:
