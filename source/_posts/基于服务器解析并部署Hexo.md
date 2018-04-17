@@ -64,13 +64,13 @@ deploy:
 # 服务器解析部署实现
 
 ## 安装Git
-可参考:{% post_link git-install-guild Linux下源码安装及配置Git %}
+可参考: {% post_link git-install-guild Linux下源码安装及配置Git %}
 
 ## 安装Node
 
 ### 安装nvm
-- 不建议采用[官方文档](https://hexo.io/zh-cn/docs/index.html) 的安装方式,后期可能会报错
-- 通过[nvm官方说明](https://github.com/creationix/nvm#install-script)  进行安装
+- 不建议采用 [官方文档](https://hexo.io/zh-cn/docs/index.html)  的安装方式,后期可能会报错
+- 通过 [nvm官方说明](https://github.com/creationix/nvm#install-script)   进行安装
  - 使用 curl 方式
 ```bash
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
