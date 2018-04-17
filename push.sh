@@ -1,6 +1,6 @@
 #! /bin/sh
 
-git add .
+git add --all
 
 if [ x"$1" != x ]; then
     git commit -m "$1"
