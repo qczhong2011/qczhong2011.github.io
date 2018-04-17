@@ -8,7 +8,7 @@ categories:
 comments: false
 copyright: true
 password:
-sticky: 99
+sticky:
 photos:
     - "http://wx4.sinaimg.cn/mw690/686ac523gy1fq3bwhgq8bj20iu0altac.jpg"
 ---
