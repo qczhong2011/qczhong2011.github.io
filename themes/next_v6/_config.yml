@@ -52,9 +52,6 @@ favicon:
   #android_manifest: /images/manifest.json
   ms_browserconfig: /images/browserconfig-qcc.xml
 
-# Set default keywords (Use a comma to separate)
-keywords: "qczone, qc, zone, zingqi"
-
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
@@ -979,7 +976,7 @@ js: js
 images: images
 
 # Theme version
-version: 6.1.0
+version: 6.2.0
 
 # 文章末尾添加“本文结束”标记
 passage_end_tag:
