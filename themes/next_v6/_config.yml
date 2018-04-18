@@ -189,9 +189,9 @@ social_icons:
 
 # Blog rolls
 links_icon: link
-links_title: 友情链接
-#links_layout: block
-links_layout: inline
+links_title: 快速链接
+links_layout: block
+#links_layout: inline
 links:
   Hexo: https://hexo.io/zh-cn/docs/
   NexT: http://theme-next.iissnan.com/getting-started.html
