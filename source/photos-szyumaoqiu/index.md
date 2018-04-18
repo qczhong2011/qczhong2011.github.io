@@ -21,12 +21,12 @@ password:
 
 {% stream %}
 {% figure 
-    http://p6spipky2.bkt.clouddn.com/qcczone/180414/HFL1DFKj61.jpg?imageslim
-    网前 %}   
+    http://p6spipky2.bkt.clouddn.com/qcczone/180414/HFL1DFKj61.jpg?imageslim 
+    %}   
 {% figure 
     http://p6spipky2.bkt.clouddn.com/qcczone/180415/hd2LgFiIE0.jpg?imageslim
-    场地 %}
+    %}
 {% figure 
     http://p6spipky2.bkt.clouddn.com/qcczone/180415/eC7hkmjlH9.jpg?imageslim
-    看你们打 %}
+    %}
 {% endstream %}
