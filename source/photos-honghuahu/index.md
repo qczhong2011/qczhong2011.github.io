@@ -26,14 +26,14 @@ password:
   
 {% figure 
     http://wx4.sinaimg.cn/mw690/686ac523gy1fq5njtdslqj21400u0agc.jpg
-    走呀走 %}
+    [走呀走](http://wx4.sinaimg.cn/large/686ac523gy1fq5njtdslqj21400u0agc.jpg) %}
   
 {% figure 
     http://wx4.sinaimg.cn/mw690/686ac523gy1fq5njsgx3yj21400u043c.jpg
-    青湖水 %}
+    [青湖水](http://wx4.sinaimg.cn/large/686ac523gy1fq5njsgx3yj21400u043c.jpg) %}
   
 {% figure 
     http://wx2.sinaimg.cn/mw690/686ac523gy1fq5norqkeyj21kw16oe81.jpg
-    噢耶 %}
+    [噢耶](http://wx2.sinaimg.cn/large/686ac523gy1fq5norqkeyj21kw16oe81.jpg) %}
 
 {% endstream %}
