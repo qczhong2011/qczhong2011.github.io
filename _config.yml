@@ -19,7 +19,7 @@ headertitle: 映七空间
 url: https://zqc.zone
 root: /
 #permalink: :year/:month/:day/:title/
-permalink: :year-:month-:day-:title/
+permalink: :year-:month-:day/:title/
 permalink_defaults:
 
 # Directory
