@@ -122,7 +122,7 @@ menu:
   photos: /photos/ || photo
   #schedule: /schedule/ || calendar
   board: /board/ || commenting
-  tags: /tags/ || tags
+  #tags: /tags/ || tags
   archives: /archives/ || archive
   about: /about/ || user-o
   #photos-huonghuahu: /photos-honghuahu/ || photo

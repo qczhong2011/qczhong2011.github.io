@@ -6,7 +6,7 @@ date: 2018-04-14 15:54:47
 tags: 
     - Hexo 
     - nvm
-categories: 技术文章
+categories: 技术
 password:
 photos:
     - http://wx3.sinaimg.cn/mw690/686ac523gy1fqca4ndn5tj20gt07v3yk.jpg

@@ -6,7 +6,7 @@ date: 2018-04-14 14:44:36
 tags: 
     - Git
     - ssh-keygen
-categories: 技术文章
+categories: 技术
 password:
 photos:
     - http://wx4.sinaimg.cn/mw690/686ac523ly1fqc81u7l09j214a0qxjvu.jpg
