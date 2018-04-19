@@ -1,6 +1,11 @@
 #! /bin/sh
 # Created by qichao 20180410
 
+echo "----------------------------------------------"
+echo "----------push to hexo branch begin-----------"
+echo "----------------------------------------------"
+
+
 git add --all
 
 if [ x"$1" != x ]; then
