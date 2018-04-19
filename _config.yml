@@ -60,17 +60,35 @@ index_generator:
 # whether the hexo-generator-index2 include the offical hexo-generator-index, default is true
 index2_include_index: true # defult is true
 # the custom index2 generator, can be array or object
+# the custom index2 generator, can be array or object
 index2_generator:
-  - layout: 'index' # use existing index layout
-    path: '' # output to root directory: http://127.0.0.1:4000/
-    index: true # Set whether index, results is_home() is true or not
+  - layout: 'index' # use existing archive layout
+    path: 'essays' # output to web folder: http://127.0.0.1:4000/web/
     per_page: 10
     order_by: -date
     include:
       - category 随笔 # include article which category is Web
     exclude:
       - tag # exclude article which tag is Hexo
-
+  - layout: 'index' # use existing archive layout
+    path: 'technology' # output to web folder: http://127.0.0.1:4000/web/
+    per_page: 10
+    order_by: -date
+    include:
+      - category 技术 # include article which category is Web
+    exclude:
+      - tag # exclude article which tag is Hexo
+  - layout: 'index' # use existing archive layout
+    path: 'favorite' # output to web folder: http://127.0.0.1:4000/web/
+    per_page: 10
+    order_by: -date
+    include:
+      - category 喜爱 # include article which category is Web
+    exclude:
+      - tag # exclude article which tag is Hexo
+  - layout: 'index' # use existing index layout
+    path: '' # output to root directory: http://127.0.0.1:4000/
+    index: true # Set whether index, results is_home() is true or not
 
 
 # Category & Tag

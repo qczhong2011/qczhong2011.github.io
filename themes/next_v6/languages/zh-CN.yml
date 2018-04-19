@@ -1,7 +1,7 @@
 ---
 title:
   archive: 归档
-  category: 文章分类
+  category: 分类
   tag: 标签
   schedule: 日程表
 
@@ -19,6 +19,9 @@ menu:
   commonweal: 公益404
   board: 留言
   photos: 相册
+  essays: 随笔
+  technology: 技术
+  favorite: 喜爱
 
 sidebar:
   overview: 站点概览
@@ -69,7 +72,7 @@ state:
   posts: 归档
   pages: 页面
   tags: 标签
-  categories: 文章分类
+  categories: 分类
 search:
   placeholder: 搜索...
 cheers:

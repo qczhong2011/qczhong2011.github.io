@@ -118,12 +118,15 @@ index_with_subtitle: ture
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  categories: /categories/ || cube
+  technology: /technology/ || superpowers
+  essays: /essays/ || lemon-o
+  favorite: /favorite || heart-o
+  #categories: /categories/ || cube
   photos: /photos/ || photo
   #schedule: /schedule/ || calendar
   board: /board/ || commenting
   #tags: /tags/ || tags
-  archives: /archives/ || archive
+  #archives: /archives/ || archive
   about: /about/ || user-o
   #photos-huonghuahu: /photos-honghuahu/ || photo
   #sitemap: /sitemap.xml || sitemap
@@ -190,8 +193,8 @@ social_icons:
 # Blog rolls
 links_icon: link
 links_title: 快速链接
-links_layout: block
-#links_layout: inline
+#links_layout: block
+links_layout: inline
 links:
   映七: /
   相册: /photos/
