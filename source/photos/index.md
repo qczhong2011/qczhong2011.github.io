@@ -17,7 +17,12 @@ comments: false
     http://wx1.sinaimg.cn/mw690/686ac523gy1fq2zkxkfcpj21kw16oh0b.jpg
     [惠州红花湖 ](/photos-honghuahu/) 
     %}   
-{% figure http://wx1.sinaimg.cn/mw690/686ac523gy1fq5o2i58vmj21kw16o1kx.jpg
+{% figure 
+    http://wx1.sinaimg.cn/mw690/686ac523gy1fq5o2i58vmj21kw16o1kx.jpg
     [深圳羽毛球](/photos-szyumaoqiu/) 
+    %}   
+{% figure 
+    http://wx3.sinaimg.cn/mw690/686ac523gy1fqhp26j7g5j21kw16oqt4.jpg
+    [巴厘岛](/photos-balidao/) 
     %}   
 {% endstream %}
