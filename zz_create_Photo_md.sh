@@ -74,6 +74,7 @@ echo "">>index.md
 echo "">>index.md
 
 prefix="https://zingqi.oss-cn-shenzhen.aliyuncs.com"
+suffix="?x-oss-process=style/watermark"
 # keep the same name for source and oss
 folder=$1
 
@@ -83,8 +84,10 @@ while [ $i -lt ${#filenames[@]} ]
 do
 	echo "{% figure ">>index.md
 	# https://zingqi.oss-cn-shenzhen.aliyuncs.com/yunnandali/X.XXX.JPG?x-oss-process=style/watermark
-	echo "$prefix/$folder/${urlfilenames[$i]}?x-oss-process=style/watermark">>index.md
-	echo "[${filenames[$i]}]($prefix/$folder/${urlfilenames[$i]}?x-oss-process=style/watermark)">>index.md
+	echo "$prefix/$folder/${urlfilenames[$i]}">>index.md
+	#echo "$prefix/$folder/${urlfilenames[$i]}$suffix">>index.md
+	#echo "[${filenames[$i]}]($prefix/$folder/${urlfilenames[$i]}$suffix)">>index.md
+	echo "[${filenames[$i]}]($prefix/$folder/${urlfilenames[$i]})">>index.md
 	echo "%}">>index.md
 
 	let i++
