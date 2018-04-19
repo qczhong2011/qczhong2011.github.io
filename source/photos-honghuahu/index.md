@@ -1,6 +1,6 @@
 ---
 title: 红花湖 20180404
-date: 2018-04-19 15:57:36
+date: 2018-04-19 16:01:34
 type: photos
 comments: false
 password:
@@ -19,8 +19,8 @@ https://zingqi.oss-cn-shenzhen.aliyuncs.com/honghuahu/2.%e9%9d%92%e9%9d%92%e6%b9
 [青青湖水](https://zingqi.oss-cn-shenzhen.aliyuncs.com/honghuahu/2.%e9%9d%92%e9%9d%92%e6%b9%96%e6%b0%b4.jpg?x-oss-process=style/watermark)
 %}
 {% figure 
-https://zingqi.oss-cn-shenzhen.aliyuncs.com/honghuahu/3队列前行.%6a%70%67.?x-oss-process=style/watermark
-[jpg](https://zingqi.oss-cn-shenzhen.aliyuncs.com/honghuahu/3队列前行.%6a%70%67.?x-oss-process=style/watermark)
+https://zingqi.oss-cn-shenzhen.aliyuncs.com/honghuahu/3.%e9%98%9f%e5%88%97%e5%89%8d%e8%a1%8c.jpg?x-oss-process=style/watermark
+[队列前行](https://zingqi.oss-cn-shenzhen.aliyuncs.com/honghuahu/3.%e9%98%9f%e5%88%97%e5%89%8d%e8%a1%8c.jpg?x-oss-process=style/watermark)
 %}
 {% endstream %}
 
