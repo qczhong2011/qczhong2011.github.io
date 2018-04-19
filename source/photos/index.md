@@ -10,11 +10,11 @@ comments: false
 
 {% stream %}
 {% figure 
-http://wx1.sinaimg.cn/mw690/686ac523gy1fq2zkxkfcpj21kw16oh0b.jpg
+https://zingqi.oss-cn-shenzhen.aliyuncs.com/honghuahu/1.%e7%ba%a2%e8%8a%b1%e5%be%ae%e7%99%bd.jpg?x-oss-process=style/watermark
 [惠州红花湖 ](/photos-honghuahu/) 
 %}   
 {% figure 
-http://wx1.sinaimg.cn/mw690/686ac523gy1fq5o2i58vmj21kw16o1kx.jpg
+https://zingqi.oss-cn-shenzhen.aliyuncs.com/szyumaoqiu/2.%e4%b8%ad%e5%9c%ba%e4%bc%91%e6%81%af.jpg?x-oss-process=style/watermark
 [深圳羽毛球](/photos-szyumaoqiu/) 
 %}   
 {% figure 
