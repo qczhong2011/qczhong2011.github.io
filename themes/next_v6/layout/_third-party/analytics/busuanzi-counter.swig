@@ -6,9 +6,9 @@
   {% if theme.busuanzi_count.total_visitors %}
     <span class="site-uv" title="{{ __('footer.total_visitors') }}">
       <i class="fa fa-{{ theme.busuanzi_count.total_visitors_icon }}"></i>
-      您是访问本站的第<b>
+      您是本站第<b>
       <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-      </b>个小伙伴
+      </b>位访客
     </span>
   {% endif %}
 

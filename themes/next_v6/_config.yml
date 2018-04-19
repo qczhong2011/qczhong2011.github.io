@@ -673,7 +673,7 @@ firestore:
 busuanzi_count:
   enable: true
   total_visitors: true
-  total_visitors_icon: fire
+  total_visitors_icon: hand-spock-o
   #total_visitors_icon: user
   total_views: false
   total_views_icon: eye
