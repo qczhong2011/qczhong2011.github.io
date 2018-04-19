@@ -9,19 +9,18 @@ categories:
     - 问题备忘
 password:
 photos:
-    - http://p6spipky2.bkt.clouddn.com/qcczone/180417/H90i9dKb1l.png?imageslim
 layout:
 ---
 
 > 在Ubuntu下新增了一块2T的硬盘,需要对硬盘进行挂载和格式化
-
-<!--more-->
 
 # 检查当前有哪些硬盘挂载了
 ```bash
 # 执行 fdisk 命令必须要root权限
 $ sudo fdisk -l
 ```
+
+<!--more-->
 
 ```
 Disk /dev/sdb: 1000.2 GB, 1000204886016 bytes

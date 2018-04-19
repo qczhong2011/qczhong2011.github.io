@@ -9,21 +9,18 @@ categories:
     - 问题备忘
 password:
 photos:
-    - http://p6spipky2.bkt.clouddn.com/qcczone/180416/b4E8eeedJ0.png?imageslim
 layout:
 ---
 
-> 问题描述: 新安装的ubuntu14.04 系统,
-> 启动VirtualBox报错,提示"Kernel driver not installed"
+> 问题描述: 新安装的ubuntu14.04 系统,启动VirtualBox报错,提示"Kernel driver not installed"
 
-<!--more-->
-
-解决方法如下:
 ## 将当前用户加入vboxusers用户组
 ```bash
 $ sudo usermod -G vboxusers -a yourname
 ```
-  
+
+<!--more-->
+
 ## 安装组件
 ```bash
 $ sudo apt-get update
