@@ -120,11 +120,11 @@ menu:
   home: / || home
   technology: /technology/ || superpowers
   essays: /essays/ || lemon-o
-  favorite: /favorite || heart-o
+  favorite: /favorite || commenting
   #categories: /categories/ || cube
   photos: /photos/ || photo
   #schedule: /schedule/ || calendar
-  board: /board/ || commenting
+  board: /board/ || book
   #tags: /tags/ || tags
   #archives: /archives/ || archive
   about: /about/ || user-o
