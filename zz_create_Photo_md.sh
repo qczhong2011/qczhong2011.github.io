@@ -82,6 +82,7 @@ echo "{% stream %}">>index.md
 while [ $i -lt ${#filenames[@]} ]
 do
 	echo "{% figure ">>index.md
+	# https://zingqi.oss-cn-shenzhen.aliyuncs.com/yunnandali/X.XXX.JPG?x-oss-process=style/watermark
 	echo "$prefix/$folder/${urlfilenames[$i]}?x-oss-process=style/watermark">>index.md
 	echo "[${filenames[$i]}]($prefix/$folder/${urlfilenames[$i]}?x-oss-process=style/watermark)">>index.md
 	echo "%}">>index.md
