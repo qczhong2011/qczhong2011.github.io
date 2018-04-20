@@ -29,18 +29,18 @@ sidebar:
 post:
   #posted: 发表于
   #edited: 更新于
-  posted: posted
-  edited: edited
+  posted: 
+  edited: 
   created: 创建时间
   modified: 修改时间
   edit: 编辑
-  in: in
+  in: 
   more: 更多
   read_more: 阅读全文
   untitled: 未命名
   sticky: 置顶
   toc_empty: 此文章未包含目录
-  views: views
+  views: 
   comments_count: 评论数
   related_posts: 相关文章
   copy_button: 复制
