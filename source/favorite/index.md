@@ -16,14 +16,14 @@ password:
 {% note %}
 #### 无信,不可行
 人无信而不立，企业无信则不长
-![无信不可行](http://p6spipky2.bkt.clouddn.com/qcczone/180420/2fbhKFI000.jpg?imageslim)
+<img src="http://p6spipky2.bkt.clouddn.com/qcczone/180420/2fbhKFI000.jpg?imageslim" class="full-image" />
 <p style="text-align:right;color:#e0e0e0">Posted by Qichao 2018.04.17</p>
 {% endnote %}
 
 {% note %}
 #### 无处安放的午睡  
 在狭小的办公室中，如果才能找到让身体栖息的地方?
-![午睡时间](http://p6spipky2.bkt.clouddn.com/qcczone/180420/F5c28F6C9f.jpg?imageslim)
+<img src="http://p6spipky2.bkt.clouddn.com/qcczone/180420/F5c28F6C9f.jpg?imageslim" class="full-image" />
 <p style="text-align:right;color:#e0e0e0">Posted by Qichao 2018.04.16</p>
 {% endnote %}
 
