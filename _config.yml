@@ -69,6 +69,7 @@ index2_generator:
     order_by: -date
     include:
       - category 随笔
+      - category 技术
     exclude:
       - tag # exclude article which tag is Hexo
     index: true # Set whether index, results is_home() is true or not
