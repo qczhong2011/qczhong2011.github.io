@@ -144,10 +144,10 @@ menu_settings:
 # Schemes
 #scheme: Muse
 #顶部标题栏目
-scheme: Mist
+#scheme: Mist
 #双栏目
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
