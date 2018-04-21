@@ -8,7 +8,7 @@ password:
 
 {% note %}
 #### 家的味道
-密密麻麻的深圳只适合工作,踏踏实实的晚餐就是家的味道
+密密麻麻的是工作，简简单单的是家的味道
 <img src="http://zingqi.oss-cn-shenzhen.aliyuncs.com/0.digu/IMG_2083.JPG" class="full-image" />
 <p style="text-align:right;color:#e0e0e0">Location HuiZhou Posted by Qichao 2018.04.21</p>
 {% endnote %}
