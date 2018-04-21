@@ -7,6 +7,13 @@ password:
 ---
 
 {% note %}
+#### 家的味道
+密密麻麻的深圳只适合工作,踏踏实实的晚餐就是家的味道
+<img src="http://zingqi.oss-cn-shenzhen.aliyuncs.com/0.digu/IMG_2083.JPG" class="full-image" />
+<p style="text-align:right;color:#e0e0e0">Location HuiZhou Posted by Qichao 2018.04.21</p>
+{% endnote %}
+
+{% note %}
 **The second you think it's so late is the fastest moment.**
 **觉得为时已晚的时候,恰恰是最早的时候.**
 哈佛校训
