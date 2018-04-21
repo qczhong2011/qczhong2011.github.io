@@ -5,7 +5,9 @@ date: 2018-04-19 23:25:37
 type: favorite
 password:
 ---
-
+{% note %}
+**➐➌➏➌➌➒➍➐➍➌➑➏➏➍➎➑**
+｛% endnote%｝
 {% note %}
 **The second you think it's so late is the fastest moment.**
 **觉得为时已晚的时候,恰恰是最早的时候.**
