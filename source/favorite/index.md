@@ -7,6 +7,14 @@ password:
 ---
 
 {% note %}
+#### 周末好天气
+窗台外的阳光很清晰，把周末映的好短暂
+<img src="https://zingqi.oss-cn-shenzhen.aliyuncs.com/0.digu/IMG_2097.JPG" class="full-image" />
+<img src="https://zingqi.oss-cn-shenzhen.aliyuncs.com/0.digu/IMG_2094.JPG" class="full-image" />
+<p style="text-align:right;color:#e0e0e0">Location HuiZhou Posted by Qichao 2018.04.22</p>
+{% endnote %}
+
+{% note %}
 #### 家的味道
 密密麻麻的是工作，简简单单的是家的味道
 <img src="https://zingqi.oss-cn-shenzhen.aliyuncs.com/0.digu/IMG_2083.JPG" class="full-image" />
