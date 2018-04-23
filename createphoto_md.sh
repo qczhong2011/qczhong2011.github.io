@@ -6,8 +6,9 @@
 # urlfilenames
 
 # $1 目标文件夹名称
-# $2 图片位置
+# $2 图片所在文件夹绝对路径
 # $3 相册标题
+# OSS的文件夹需要以NO.XXX 命名，比如6.jiaqi
 
 echo "--------------Begin-------------"
 
@@ -19,8 +20,14 @@ if [ x"$1" == x ]; then
 	echo "Please input the target folder name !"
 	exit 1
 else
-	mkdir -p "./source/photos-$1"
-	targetpath="`pwd`/source/photos-$1/"
+	folder=$1
+	# foldernamearray"."分割得到数组 
+	foldernamearray=(${folder//./ }) 
+	# 取得 foldernamearray 数组第一个值
+	foldername=${foldernamearray[1]}
+
+	mkdir -p "./source/photos-$foldername"
+	targetpath="`pwd`/source/photos-$foldername/"
 fi
 
 # 检查图片所在路径
