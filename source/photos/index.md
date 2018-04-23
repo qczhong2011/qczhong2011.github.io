@@ -7,8 +7,8 @@ comments: false
 
 {% stream %}
 {% figure 
-https://zingqi.oss-cn-shenzhen.aliyuncs.com/zhoumoshenghuo/1.%e6%9c%ba%e6%a2%b0%e5%a7%ac%e7%94%b5%e5%bd%b1.jpg
-[机械姬电影](https://zingqi.oss-cn-shenzhen.aliyuncs.com/zhoumoshenghuo/1.%e6%9c%ba%e6%a2%b0%e5%a7%ac%e7%94%b5%e5%bd%b1.jpg)
+https://zingqi.oss-cn-shenzhen.aliyuncs.com/5.zhoumoshenghuo/1.%e6%9c%ba%e6%a2%b0%e5%a7%ac%e7%94%b5%e5%bd%b1.jpg
+[周末生活](/photos-zhoumoshenghuo/)
 %}
 {% figure
 https://zingqi.oss-cn-shenzhen.aliyuncs.com/4.szyumaoqiu/1.%e8%93%84%e5%8a%bf%e4%bb%a5%e5%be%85.jpg
@@ -22,11 +22,11 @@ https://zingqi.oss-cn-shenzhen.aliyuncs.com/3.honghuahu/1.%e7%ba%a2%e8%8a%b1%e5%
 
 {% stream %} 
 {% figure
-https://zingqi.oss-cn-shenzhen.aliyuncs.com/1.yunnandali/1.%e5%a4%a7%e7%90%86%e9%97%a8.JPG
-[云南大理](/photos-yunnandali/) 
-%}  
-{% figure
 https://zingqi.oss-cn-shenzhen.aliyuncs.com/2.balidao/1.%e5%a5%87%e7%9f%b3.JPG
 [巴厘岛](/photos-balidao/) 
+%}  
+{% figure
+https://zingqi.oss-cn-shenzhen.aliyuncs.com/1.yunnandali/1.%e5%a4%a7%e7%90%86%e9%97%a8.JPG
+[云南大理](/photos-yunnandali/) 
 %}  
 {% endstream %}
