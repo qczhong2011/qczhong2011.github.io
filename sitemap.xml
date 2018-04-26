@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.zingqi.com/2018/04/14/install_git_on_linux_via_sourcecode/</loc>
+    <loc>https://www.zingqi.com/zqc_start_virtualbox_error_on_ubuntu14.04.html</loc>
     
-    <lastmod>2018-04-26T14:17:03.284Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/2018/04/17/mount_new_hardisk_on_ubuntu14.04/</loc>
-    
-    <lastmod>2018-04-26T14:17:03.284Z</lastmod>
+    <lastmod>2018-04-26T16:26:03.345Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/2018/04/16/start_virtualbox_error_on_ubuntu14.04/</loc>
+    <loc>https://www.zingqi.com/zqc_deploy_hexo_on_aliyun_ecs_server.html</loc>
     
-    <lastmod>2018-04-26T14:17:03.284Z</lastmod>
+    <lastmod>2018-04-26T16:26:03.344Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/2018/04/14/deploy_hexo_on_aliyun_ecs_server/</loc>
+    <loc>https://www.zingqi.com/zqc_install_git_on_linux_via_sourcecode.html</loc>
     
-    <lastmod>2018-04-26T14:17:03.283Z</lastmod>
+    <lastmod>2018-04-26T16:26:03.344Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/zqc_mount_new_hardisk_on_ubuntu14.04.html</loc>
+    
+    <lastmod>2018-04-26T16:26:03.344Z</lastmod>
     
   </url>
   
@@ -135,7 +135,7 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/2018/04/03/hello_world_on_hexo/</loc>
+    <loc>https://www.zingqi.com/zqc_hello_world_on_hexo.html</loc>
     
     <lastmod>2018-04-11T14:15:44.000Z</lastmod>
     

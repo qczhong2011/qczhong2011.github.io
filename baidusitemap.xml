@@ -4,8 +4,50 @@
 
     
   <url>
-    <loc>https://www.zingqi.com/2018/04/14/install_git_on_linux_via_sourcecode/</loc>
-    <lastmod>2018-04-26T14:17:03.284Z</lastmod>
+    <loc>https://www.zingqi.com/zqc_start_virtualbox_error_on_ubuntu14.04.html</loc>
+    <lastmod>2018-04-26T16:26:03.345Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu14.04 VirtualBox启动报错</title>
+        <pubTime>2018-04-16T09:40:19.000Z</pubTime>
+        
+        <tag>virtualbox</tag>
+         
+         
+           
+             
+              <breadCrumb title="Question" url="https://www.zingqi.com/categories/Question/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.zingqi.com/zqc_deploy_hexo_on_aliyun_ecs_server.html</loc>
+    <lastmod>2018-04-26T16:26:03.344Z</lastmod>
+    <data>
+        <display>
+        <title>基于服务器解析并自动部署Hexo</title>
+        <pubTime>2018-04-14T07:54:47.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>nvm</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech" url="https://www.zingqi.com/categories/Tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.zingqi.com/zqc_install_git_on_linux_via_sourcecode.html</loc>
+    <lastmod>2018-04-26T16:26:03.344Z</lastmod>
     <data>
         <display>
         <title>Linux下源码安装及配置Git</title>
@@ -26,8 +68,8 @@
 
     
   <url>
-    <loc>https://www.zingqi.com/2018/04/17/mount_new_hardisk_on_ubuntu14.04/</loc>
-    <lastmod>2018-04-26T14:17:03.284Z</lastmod>
+    <loc>https://www.zingqi.com/zqc_mount_new_hardisk_on_ubuntu14.04.html</loc>
+    <lastmod>2018-04-26T16:26:03.344Z</lastmod>
     <data>
         <display>
         <title>Ubuntu14.04 新增硬盘挂载</title>
@@ -45,48 +87,6 @@
     </url>
 
     
-  <url>
-    <loc>https://www.zingqi.com/2018/04/16/start_virtualbox_error_on_ubuntu14.04/</loc>
-    <lastmod>2018-04-26T14:17:03.284Z</lastmod>
-    <data>
-        <display>
-        <title>Ubuntu14.04 VirtualBox启动报错</title>
-        <pubTime>2018-04-16T09:40:19.000Z</pubTime>
-        
-        <tag>virtualbox</tag>
-         
-         
-           
-             
-              <breadCrumb title="Question" url="https://www.zingqi.com/categories/Question/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.zingqi.com/2018/04/14/deploy_hexo_on_aliyun_ecs_server/</loc>
-    <lastmod>2018-04-26T14:17:03.283Z</lastmod>
-    <data>
-        <display>
-        <title>基于服务器解析并自动部署Hexo</title>
-        <pubTime>2018-04-14T07:54:47.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>nvm</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech" url="https://www.zingqi.com/categories/Tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
     
     
     
@@ -103,7 +103,7 @@
     
     
   <url>
-    <loc>https://www.zingqi.com/2018/04/03/hello_world_on_hexo/</loc>
+    <loc>https://www.zingqi.com/zqc_hello_world_on_hexo.html</loc>
     <lastmod>2018-04-11T14:15:44.000Z</lastmod>
     <data>
         <display>

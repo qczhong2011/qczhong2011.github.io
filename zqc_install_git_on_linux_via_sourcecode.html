@@ -83,32 +83,32 @@
 
 
 
-  <meta name="description" content="The second you think it’s so late is the fastest moment.觉得为时已晚的时候,恰恰是最早的时候. – 哈佛校训">
-<meta name="keywords" content="hello">
+  <meta name="description" content="Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目.">
+<meta name="keywords" content="Git,ssh-keygen">
 <meta property="og:type" content="article">
-<meta property="og:title" content="写在前面">
-<meta property="og:url" content="https://www.zingqi.com/2018/04/03/hello_world_on_hexo/index.html">
+<meta property="og:title" content="Linux下源码安装及配置Git">
+<meta property="og:url" content="https://www.zingqi.com/zqc_install_git_on_linux_via_sourcecode.html">
 <meta property="og:site_name" content="映七空间">
-<meta property="og:description" content="The second you think it’s so late is the fastest moment.觉得为时已晚的时候,恰恰是最早的时候. – 哈佛校训">
+<meta property="og:description" content="Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目.">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/xiaozhou.jpg">
-<meta property="og:updated_time" content="2018-04-11T14:15:44.000Z">
+<meta property="og:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/install_git_1.jpg">
+<meta property="og:updated_time" content="2018-04-26T16:26:03.344Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="写在前面">
-<meta name="twitter:description" content="The second you think it’s so late is the fastest moment.觉得为时已晚的时候,恰恰是最早的时候. – 哈佛校训">
-<meta name="twitter:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/xiaozhou.jpg">
+<meta name="twitter:title" content="Linux下源码安装及配置Git">
+<meta name="twitter:description" content="Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目.">
+<meta name="twitter:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/install_git_1.jpg">
 
 
 
 
 
 
-  <link rel="canonical" href="https://www.zingqi.com/2018/04/03/hello_world_on_hexo/">
+  <link rel="canonical" href="https://www.zingqi.com/zqc_install_git_on_linux_via_sourcecode.html">
 
 
 
 <script id="page.configurations">CONFIG.page={sidebar:""}</script>
-  <title>写在前面 | 映七空间</title>
+  <title>Linux下源码安装及配置Git | 映七空间</title>
   
 
 
@@ -305,7 +305,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.zingqi.com/2018/04/03/hello_world_on_hexo/">
+    <link itemprop="mainEntityOfPage" href="https://www.zingqi.com/zqc_install_git_on_linux_via_sourcecode.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ZHONG Qichao">
@@ -322,7 +322,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">写在前面
+          <h2 class="post-title" itemprop="name headline">Linux下源码安装及配置Git
               
             
           </h2>
@@ -345,7 +345,7 @@
                 
               
 
-              <time title="创建时间：2018-04-03 17:00:43" itemprop="dateCreated datePublished" datetime="2018-04-03T17:00:43+08:00">2018-04-03</time>
+              <time title="创建时间：2018-04-14 14:44:36" itemprop="dateCreated datePublished" datetime="2018-04-14T14:44:36+08:00">2018-04-14</time>
             
 
             
@@ -361,7 +361,7 @@
               </span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Essay/" itemprop="url" rel="index"><span itemprop="name">Essay</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Tech/" itemprop="url" rel="index"><span itemprop="name">Tech</span></a></span>
 
                 
                 
@@ -395,7 +395,7 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                <span title="本文字数">509</span>
+                <span title="本文字数">1.8k</span>
               
 
               
@@ -407,7 +407,7 @@
                   <i class="fa fa-clock-o"></i>
                 </span>
                 
-                <span title="阅读时长">0:01</span>
+                <span title="阅读时长">0:02</span>
               
             </div>
           
@@ -429,8 +429,8 @@
           
           
             <div class="post-gallery-row">
-              <a class="post-gallery-img fancybox" href="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/xiaozhou.jpg" rel="gallery_cjggqblzn0003e3roxokgztbt" itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
-                <img src="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/xiaozhou.jpg" itemprop="contentUrl">
+              <a class="post-gallery-img fancybox" href="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/install_git_1.jpg" rel="gallery_cjggqpry90007q9rot3m7hxc5" itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/install_git_1.jpg" itemprop="contentUrl">
               </a>
             
           
@@ -442,24 +442,68 @@
 
       
         <blockquote>
-<p>The second you think it’s so late is the fastest moment.<br>觉得为时已晚的时候,恰恰是最早的时候. – 哈佛校训</p>
+<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目.</p>
 </blockquote>
 <a id="more"></a>
-<p>建一个自己的空间,记录些生活,总结些失败经历, 虽然没有什么意义, 却会很有意思<br>总算是在今年清明节假期,迈出了为时已晚的第一步, 把空间搭起来了</p>
+<p>在官方安装介绍里面, 包含了源码安装方式和二进制安装方式, <a href="https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="noopener">传送门</a><br>本文主要记录在Linxu中使用源码安装和配置命令</p>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>如果当前是root用户,那么最好创建一个 <strong>git</strong> 用户, 以git用户操作下面的步骤</p>
 <ul>
-<li>基于 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo</a> + <a href="https://pages.github.com/" target="_blank" rel="noopener">Github Pages</a> + 域名解析 建立起了这个网站</li>
-<li>基于 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo</a> + <a href="https://theme-next.iissnan.com/tag-plugins.html" target="_blank" rel="noopener">nexT</a> 主题修改成自己喜欢的风格, 添加 <a href="/board/">留言板</a> 和 <a href="/photos/">相册</a> 功能</li>
-<li>挑选合适的域名</li>
-<li>自己制作网站的Favicon以及头像</li>
+<li><p>创建git用户并设置密码</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo adduser git  <span class="comment"># 创建git用户</span></span><br><span class="line">$ sudo passwd git   <span class="comment"># 设置git密码</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>给git用户添加sudo权限</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo chmod 740 /etc/sudoers</span><br><span class="line">$ sudo vim /etc/sudoers</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在/etc/sudoers 文件中,添加一行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">## Allow root to run any commands anywhere</span><br><span class="line">root    ALL=(ALL)     ALL</span><br><span class="line">## Add by qichao for git on 20180414</span><br><span class="line">git   ALL=(ALL)     ALL</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
-<h2 id="写些什么"><a href="#写些什么" class="headerlink" title="写些什么"></a>写些什么</h2><p>空间当然首先是为自己服务的.在日常的生活,有很多值得我们纪念的东西.在日复一日的工作中,也会有很多经验和教训也是应该记下来的.另外,作为一个小文艺,也许会有些小情绪可以吐槽的.总结了下空间可以写的东西如下:</p>
 <ul>
-<li>工作经验的备忘和归档</li>
-<li>技术解决方案总结分享</li>
-<li>自己的读书笔记和想法</li>
-<li>生活和情绪的记录表达</li>
+<li><p>如果不想每次以git执行sudo命令输入密码,修改添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">## Allow root to run any commands anywhere</span><br><span class="line">root    ALL=(ALL)     ALL</span><br><span class="line">## Add by qichao for git on 20180414</span><br><span class="line">git   ALL=(ALL) NOPASSWD: ALL</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>然后就可以切换到 git 用户了</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ su git</span><br><span class="line">$ <span class="built_in">cd</span> ~</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
-<h2 id="或许还有"><a href="#或许还有" class="headerlink" title="或许还有"></a>或许还有</h2><p>有了相册模块,就可以留念生活中的点点滴滴. 也可以分享有趣的电影和音乐.<br>有了留言模块,就可以和大家交流,相互学习和提高<br>在搭建空间的过程中,也可以学习到很多东西</p>
+<h1 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h1><ul>
+<li><p>安装依赖</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>下载编译</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.17.0.tar.gz</span><br><span class="line">$ tar -zxf git-2.17.0.tar.gz</span><br><span class="line">$ <span class="built_in">cd</span> git-2.17.0</span><br><span class="line">$ make prefix=/usr/<span class="built_in">local</span> all</span><br><span class="line">$ sudo make prefix=/usr/<span class="built_in">local</span> install</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Git tar包的下载链接 <a href="https://mirrors.edge.kernel.org/pub/software/scm/git/" target="_blank" rel="noopener">Linxu下载</a></p>
+</li>
+</ul>
+<h1 id="Git配置"><a href="#Git配置" class="headerlink" title="Git配置"></a>Git配置</h1><ul>
+<li><p>配置用户名和邮箱</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"yourname"</span></span><br><span class="line">$ git config --global user.email <span class="string">"youremail"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>生成 SSH 密钥, 在命令执行过程中一路回车即可,不需要输入密码</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"youremail@example.com"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>然后执行命令查看公钥, 将该公钥拷贝到Github上就可以提交代码</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">eval</span> `ssh-agent`</span><br><span class="line">$ ssh-add ~/.ssh/id_rsa</span><br><span class="line">$ cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<ul>
+<li><p>创建一个裸仓库的命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /home/git/</span><br><span class="line">$ git init --bare xxxx.git</span><br><span class="line">$ chown -R git:git xxxx.git</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>克隆仓库的命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> git@yourserverip:/home/git/xxxx.git</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>提交命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git status</span><br><span class="line">$ git add </span><br><span class="line">$ git commit -m <span class="string">"comments"</span></span><br><span class="line">$ git push origin master</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="创建证书免密登录"><a href="#创建证书免密登录" class="headerlink" title="创建证书免密登录"></a>创建证书免密登录</h1><p>把需要免密登录的公钥写入到 .ssh/authorized_keys文件中即可</p>
+<ul>
+<li>第一次登录会需要记录IP地址<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /home/git</span><br><span class="line">$ chmod 700 .ssh</span><br><span class="line">$ touch .ssh/authorized_keys</span><br><span class="line">$ chmod 600 .ssh/authorized_keys</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>PS: 官方使用教程: <a href="https://git-scm.com/book/zh/v2" target="_blank" rel="noopener">传送门</a></p>
 
       
     </div>
@@ -518,7 +562,7 @@
     <strong>本文作者： </strong>ZHONG Qichao</li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://www.zingqi.com/2018/04/03/hello_world_on_hexo/" title="写在前面">https://www.zingqi.com/2018/04/03/hello_world_on_hexo/</a>
+    <a href="https://www.zingqi.com/zqc_install_git_on_linux_via_sourcecode.html" title="Linux下源码安装及配置Git">https://www.zingqi.com/zqc_install_git_on_linux_via_sourcecode.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>
@@ -532,7 +576,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hello/" rel="tag"><i class="fa fa-tag"></i> hello</a>
+            <a href="/tags/Git/" rel="tag"><i class="fa fa-tag"></i> Git</a>
+          
+            <a href="/tags/ssh-keygen/" rel="tag"><i class="fa fa-tag"></i> ssh-keygen</a>
           
         </div>
       
@@ -545,14 +591,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/zqc_hello_world_on_hexo.html" rel="next" title="写在前面">
+                <i class="fa fa-chevron-left"></i> 写在前面
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/04/14/install_git_on_linux_via_sourcecode/" rel="prev" title="Linux下源码安装及配置Git">
-                Linux下源码安装及配置Git <i class="fa fa-chevron-right"></i>
+              <a href="/zqc_deploy_hexo_on_aliyun_ecs_server.html" rel="prev" title="基于服务器解析并自动部署Hexo">
+                基于服务器解析并自动部署Hexo <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -758,7 +808,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#写些什么"><span class="nav-number">1.</span> <span class="nav-text">写些什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#或许还有"><span class="nav-number">2.</span> <span class="nav-text">或许还有</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#准备工作"><span class="nav-number">1.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#源码安装"><span class="nav-number">2.</span> <span class="nav-text">源码安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Git配置"><span class="nav-number">3.</span> <span class="nav-text">Git配置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#创建证书免密登录"><span class="nav-number">4.</span> <span class="nav-text">创建证书免密登录</span></a></li></ol></div>
             
 
           </div>
