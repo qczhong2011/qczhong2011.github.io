@@ -1,12 +1,12 @@
 # hexo robots.txt
 User-agent: * Allow: /
+Allow: /about/
 Allow: /archives/
-Allow: /categories/
-Allow: /photos/
-Allow: /essays/
-Allow: /favorite/
 Allow: /technology/
-Allow: /technology/
+DisAllow: /categories/
+DisAllow: /essays/
+DisAllow: /favorite/
+DisAllow: /photos/
 Disallow: /vendors/
 Disallow: /js/
 Disallow: /css/
