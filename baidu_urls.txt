@@ -1,0 +1,5 @@
+https://www.zingqi.com/zqc_mount_new_hardisk_on_ubuntu14.04.html
+https://www.zingqi.com/zqc_start_virtualbox_error_on_ubuntu14.04.html
+https://www.zingqi.com/zqc_deploy_hexo_on_aliyun_ecs_server.html
+https://www.zingqi.com/zqc_install_git_on_linux_via_sourcecode.html
+https://www.zingqi.com/zqc_hello_world_on_hexo.html
