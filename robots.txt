@@ -1,18 +1,8 @@
 # hexo robots.txt
-User-agent: * Allow: /
-Allow: /about/
-Allow: /archives/
-Allow: /technology/
-DisAllow: /categories/
-DisAllow: /essays/
-DisAllow: /favorite/
-DisAllow: /photos/
-Disallow: /vendors/
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /vendors/
-Disallow: /fancybox/
+User-agent: *
+Disallow:/favorite/index.html
+Disallow:/essays/index.html
+Disallow:/photos/*
 
 Sitemap: https://www.zingqi.com/sitemap.xml
 Sitemap: https://www.zingqi.com/baidusitemap.xml
