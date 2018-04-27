@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>https://www.zingqi.com/zqc_elegantly_switch_from_ubuntu14_to_debian9.html</loc>
+    <lastmod>2018-04-27T09:05:03.147Z</lastmod>
+    <data>
+        <display>
+        <title>从Ubuntu14.04优雅地切换到Debian9</title>
+        <pubTime>2018-04-27T07:13:16.000Z</pubTime>
+        
+        <tag>ubuntu</tag>
+         
+        <tag>debian</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech" url="https://www.zingqi.com/categories/Tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.zingqi.com/zqc_deploy_hexo_on_aliyun_ecs_server.html</loc>
     <lastmod>2018-04-27T07:44:03.188Z</lastmod>
     <data>
@@ -25,28 +47,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>https://www.zingqi.com/zqc_elegantly_switch_from_ubuntu14_to_debian9.html</loc>
-    <lastmod>2018-04-27T07:44:03.188Z</lastmod>
-    <data>
-        <display>
-        <title>从Ubuntu14.04优雅地切换到Debian9</title>
-        <pubTime>2018-04-27T07:13:16.000Z</pubTime>
-        
-        <tag>ubuntu</tag>
-         
-        <tag>debian</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech" url="https://www.zingqi.com/categories/Tech/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>https://www.zingqi.com/zqc_start_virtualbox_error_on_ubuntu14.04.html</loc>
