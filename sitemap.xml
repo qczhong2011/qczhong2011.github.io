@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.zingqi.com/zqc_start_virtualbox_error_on_ubuntu14.04.html</loc>
+    <loc>https://www.zingqi.com/zqc_deploy_hexo_on_aliyun_ecs_server.html</loc>
     
-    <lastmod>2018-04-26T16:26:03.345Z</lastmod>
+    <lastmod>2018-04-27T07:44:03.188Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/zqc_deploy_hexo_on_aliyun_ecs_server.html</loc>
+    <loc>https://www.zingqi.com/404.html</loc>
     
-    <lastmod>2018-04-26T16:26:03.344Z</lastmod>
+    <lastmod>2018-04-27T07:44:03.188Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/zqc_elegantly_switch_from_ubuntu14_to_debian9.html</loc>
+    
+    <lastmod>2018-04-27T07:44:03.188Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/zqc_start_virtualbox_error_on_ubuntu14.04.html</loc>
+    
+    <lastmod>2018-04-26T16:26:03.345Z</lastmod>
     
   </url>
   
@@ -58,7 +72,7 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/photos/dali/index.html</loc>
+    <loc>https://www.zingqi.com/photos/badminton/index.html</loc>
     
     <lastmod>2018-04-24T09:59:02.963Z</lastmod>
     
@@ -72,7 +86,7 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/photos/badminton/index.html</loc>
+    <loc>https://www.zingqi.com/photos/dali/index.html</loc>
     
     <lastmod>2018-04-24T09:59:02.963Z</lastmod>
     
@@ -82,6 +96,13 @@
     <loc>https://www.zingqi.com/about/index.html</loc>
     
     <lastmod>2018-04-23T14:21:03.299Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/technology/index.html</loc>
+    
+    <lastmod>2018-04-21T05:35:06.217Z</lastmod>
     
   </url>
   
@@ -100,14 +121,7 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/technology/index.html</loc>
-    
-    <lastmod>2018-04-21T05:35:06.217Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/essays/index.html</loc>
+    <loc>https://www.zingqi.com/board/index.html</loc>
     
     <lastmod>2018-04-21T05:35:06.216Z</lastmod>
     
@@ -121,14 +135,7 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/board/index.html</loc>
-    
-    <lastmod>2018-04-21T05:35:06.216Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/404.html</loc>
+    <loc>https://www.zingqi.com/essays/index.html</loc>
     
     <lastmod>2018-04-21T05:35:06.216Z</lastmod>
     
