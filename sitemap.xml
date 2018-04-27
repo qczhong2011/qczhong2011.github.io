@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.zingqi.com/favorite/index.html</loc>
+    
+    <lastmod>2018-04-27T13:21:03.231Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.zingqi.com/zqc_elegantly_switch_from_ubuntu14_to_debian9.html</loc>
     
     <lastmod>2018-04-27T12:26:02.854Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://www.zingqi.com/zqc_mount_new_hardisk_on_ubuntu14.04.html</loc>
     
     <lastmod>2018-04-26T16:26:03.344Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/favorite/index.html</loc>
-    
-    <lastmod>2018-04-26T01:17:02.684Z</lastmod>
     
   </url>
   
