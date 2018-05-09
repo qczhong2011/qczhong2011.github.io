@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.zingqi.com/favorite/index.html</loc>
+    
+    <lastmod>2018-05-09T12:08:02.153Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.zingqi.com/photos/badminton/index.html</loc>
     
     <lastmod>2018-05-08T14:11:02.277Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://www.zingqi.com/about/index.html</loc>
     
     <lastmod>2018-05-08T13:28:02.447Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/favorite/index.html</loc>
-    
-    <lastmod>2018-05-07T13:54:02.063Z</lastmod>
     
   </url>
   
