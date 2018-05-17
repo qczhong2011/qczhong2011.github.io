@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.zingqi.com/photos/workthings/index.html</loc>
+    
+    <lastmod>2018-05-17T16:52:02.858Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/photos/dali/index.html</loc>
+    
+    <lastmod>2018-05-17T16:52:02.858Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/photos/bali/index.html</loc>
+    
+    <lastmod>2018-05-17T16:52:02.858Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.zingqi.com/favorite/index.html</loc>
     
     <lastmod>2018-05-17T16:48:02.328Z</lastmod>
@@ -16,13 +37,6 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/photos/workthings/index.html</loc>
-    
-    <lastmod>2018-05-17T14:38:02.904Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.zingqi.com/photos/weekendlife/index.html</loc>
     
     <lastmod>2018-05-17T14:23:02.541Z</lastmod>
@@ -31,20 +45,6 @@
   
   <url>
     <loc>https://www.zingqi.com/photos/honghuahu/index.html</loc>
-    
-    <lastmod>2018-05-17T14:23:02.541Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/photos/dali/index.html</loc>
-    
-    <lastmod>2018-05-17T14:23:02.541Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/photos/bali/index.html</loc>
     
     <lastmod>2018-05-17T14:23:02.541Z</lastmod>
     
@@ -93,14 +93,14 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/2018/04-14/zqc_install_git_on_linux_via_sourcecode.html</loc>
+    <loc>https://www.zingqi.com/2018/04-17/zqc_mount_new_hardisk_on_ubuntu14.04.html</loc>
     
     <lastmod>2018-04-26T16:26:03.344Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/2018/04-17/zqc_mount_new_hardisk_on_ubuntu14.04.html</loc>
+    <loc>https://www.zingqi.com/2018/04-14/zqc_install_git_on_linux_via_sourcecode.html</loc>
     
     <lastmod>2018-04-26T16:26:03.344Z</lastmod>
     
