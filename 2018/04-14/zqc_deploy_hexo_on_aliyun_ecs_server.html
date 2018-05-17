@@ -83,32 +83,32 @@
 
 
 
-  <meta name="description" content="Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目.">
-<meta name="keywords" content="Git,ssh-keygen">
+  <meta name="description" content="基于GitHub双分支思路备份源码, 基于Git Hooks思路自动部署网页客户端完成博客更新和配置修改, 服务器端解析并部署成静态网页随时随地可以push更新到服务器, 服务器检测到更新后自动部署">
+<meta name="keywords" content="Hexo,nvm">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Linux下源码安装及配置Git">
-<meta property="og:url" content="https://www.zingqi.com/2018/04-14/zqc_install_git_on_linux_via_sourcecode/index.html">
+<meta property="og:title" content="服务器自动解析并部署Hexo">
+<meta property="og:url" content="https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html">
 <meta property="og:site_name" content="映七空间">
-<meta property="og:description" content="Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目.">
+<meta property="og:description" content="基于GitHub双分支思路备份源码, 基于Git Hooks思路自动部署网页客户端完成博客更新和配置修改, 服务器端解析并部署成静态网页随时随地可以push更新到服务器, 服务器检测到更新后自动部署">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/install_git_1.jpg">
-<meta property="og:updated_time" content="2018-04-26T16:26:03.344Z">
+<meta property="og:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/deploy_hexo_on_aliyun_ecs_1.jpg">
+<meta property="og:updated_time" content="2018-04-27T16:23:02.569Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Linux下源码安装及配置Git">
-<meta name="twitter:description" content="Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目.">
-<meta name="twitter:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/install_git_1.jpg">
+<meta name="twitter:title" content="服务器自动解析并部署Hexo">
+<meta name="twitter:description" content="基于GitHub双分支思路备份源码, 基于Git Hooks思路自动部署网页客户端完成博客更新和配置修改, 服务器端解析并部署成静态网页随时随地可以push更新到服务器, 服务器检测到更新后自动部署">
+<meta name="twitter:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/deploy_hexo_on_aliyun_ecs_1.jpg">
 
 
 
 
 
 
-  <link rel="canonical" href="https://www.zingqi.com/2018/04-14/zqc_install_git_on_linux_via_sourcecode/">
+  <link rel="canonical" href="https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html">
 
 
 
 <script id="page.configurations">CONFIG.page={sidebar:""}</script>
-  <title>Linux下源码安装及配置Git | 映七空间</title>
+  <title>服务器自动解析并部署Hexo | 映七空间</title>
   
 
 
@@ -297,7 +297,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.zingqi.com/2018/04-14/zqc_install_git_on_linux_via_sourcecode/">
+    <link itemprop="mainEntityOfPage" href="https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ZhongQiChao">
@@ -314,7 +314,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Linux下源码安装及配置Git
+          <h2 class="post-title" itemprop="name headline">服务器自动解析并部署Hexo
               
             
           </h2>
@@ -337,7 +337,7 @@
                 
               
 
-              <time title="创建时间：2018-04-14 14:44:36" itemprop="dateCreated datePublished" datetime="2018-04-14T14:44:36+08:00">2018-04-14</time>
+              <time title="创建时间：2018-04-14 15:54:47" itemprop="dateCreated datePublished" datetime="2018-04-14T15:54:47+08:00">2018-04-14</time>
             
 
             
@@ -387,7 +387,7 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                <span title="本文字数">1.8k</span>
+                <span title="本文字数">2k</span>
               
 
               
@@ -421,8 +421,8 @@
           
           
             <div class="post-gallery-row">
-              <a class="post-gallery-img fancybox" href="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/install_git_1.jpg" rel="gallery_cjha54wbr0009pcronlq496e7" itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
-                <img src="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/install_git_1.jpg" itemprop="contentUrl">
+              <a class="post-gallery-img fancybox" href="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/deploy_hexo_on_aliyun_ecs_1.jpg" rel="gallery_cjha58quc00012iro9298wncb" itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/deploy_hexo_on_aliyun_ecs_1.jpg" itemprop="contentUrl">
               </a>
             
           
@@ -434,68 +434,78 @@
 
       
         <blockquote>
-<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目.</p>
+<p>基于GitHub双分支思路备份源码, 基于Git Hooks思路自动部署网页<br>客户端完成博客更新和配置修改, 服务器端解析并部署成静态网页<br>随时随地可以push更新到服务器, 服务器检测到更新后自动部署</p>
 </blockquote>
 <a id="more"></a>
-<p>在官方安装介绍里面, 包含了源码安装方式和二进制安装方式, <a href="https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="noopener">传送门</a><br>本文主要记录在Linxu中使用源码安装和配置命令</p>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>如果当前是root用户,那么最好创建一个 <strong>git</strong> 用户, 以git用户操作下面的步骤</p>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="基于Github-双分支思路备份源码"><a href="#基于Github-双分支思路备份源码" class="headerlink" title="基于Github 双分支思路备份源码"></a>基于Github 双分支思路备份源码</h2><ul>
+<li>在Github Pages仓库中创建两个分支:master 和 hexo</li>
+<li>设置hexo为默认分支</li>
+<li>采用 Use SSH 方式将该仓库clone到本地<br><img src="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/deploy_hexo_on_aliyun_ecs_2.jpg" alt="Use SSH"></li>
+<li>将hexo文件夹中的文件复制到clone下来的git仓库中</li>
+<li>不要遗漏 .gitignore文件,并将 theme/next/目录下的.git/文件夹删掉</li>
+<li>将更新Push到git仓库<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git add .</span><br><span class="line">$ git commit -m <span class="string">"init hexo source code"</span></span><br><span class="line">$ git push origin hexo</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="基于Git-Hooks思路自动部署网页"><a href="#基于Git-Hooks思路自动部署网页" class="headerlink" title="基于Git Hooks思路自动部署网页"></a>基于Git Hooks思路自动部署网页</h2><ul>
+<li><p>在云服务器中新建一个裸仓</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git init --bare zingqi.git</span><br><span class="line">$ chown -R git:git zingqi.git</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在裸仓的zingqi.git/hooks/文件夹目录下创建文件 post-receive,并写入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#! /bin/sh</span><br><span class="line">git --work-tree=/usr/local/nginx/html/zingqi --git-dir=/home/git/zingqi.git checkout -f</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>给该文件添加可执行权限</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ chmod +x post-receive</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在hexo项目目录中,修改配置文件的deploy项目,使得每次deploy时将结果push到zingqi.git</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: </span><br><span class="line">    gitecs: git@yourserverIP:/home/git/zingqi.git,master</span><br><span class="line">  message:</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="服务器解析部署实现"><a href="#服务器解析部署实现" class="headerlink" title="服务器解析部署实现"></a>服务器解析部署实现</h1><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>可参考: <a href="/2018/04-14/zqc_install_git_on_linux_via_sourcecode.html" title="Linux下源码安装及配置Git">Linux下源码安装及配置Git</a></p>
+<h2 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node"></a>安装Node</h2><h3 id="安装nvm"><a href="#安装nvm" class="headerlink" title="安装nvm"></a>安装nvm</h3><ul>
+<li>不建议采用 <a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">官方文档</a>  的安装方式,后期可能会报错</li>
+<li><p>通过 <a href="https://github.com/creationix/nvm#install-script" target="_blank" rel="noopener">nvm官方说明</a>   进行安装</p>
 <ul>
-<li><p>创建git用户并设置密码</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo adduser git  <span class="comment"># 创建git用户</span></span><br><span class="line">$ sudo passwd git   <span class="comment"># 设置git密码</span></span><br></pre></td></tr></table></figure>
+<li><p>使用 curl 方式</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>给git用户添加sudo权限</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo chmod 740 /etc/sudoers</span><br><span class="line">$ sudo vim /etc/sudoers</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在/etc/sudoers 文件中,添加一行</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">## Allow root to run any commands anywhere</span><br><span class="line">root    ALL=(ALL)     ALL</span><br><span class="line">## Add by qichao for git on 20180414</span><br><span class="line">git   ALL=(ALL)     ALL</span><br></pre></td></tr></table></figure>
+<li><p>使用 wget方式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
+</li>
+<li><p>安装完成后, 重启终端使命令路径生效</p>
+</li>
+</ul>
+<h3 id="基于nvm安装Node"><a href="#基于nvm安装Node" class="headerlink" title="基于nvm安装Node"></a>基于nvm安装Node</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ nvm install stable</span><br></pre></td></tr></table></figure>
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><ul>
+<li>先检查下当前git和node是否安装正常<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br><span class="line">$ node --version</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="初始化安装"><a href="#初始化安装" class="headerlink" title="初始化安装"></a>初始化安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br><span class="line">$ npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
+<h3 id="还原式安装-如果采用了双分支备份思路"><a href="#还原式安装-如果采用了双分支备份思路" class="headerlink" title="还原式安装 (如果采用了双分支备份思路)"></a>还原式安装 (如果采用了双分支备份思路)</h3><ul>
+<li><p>使用git将远程hexo仓库clone到本地后,执行以下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ npm install</span><br><span class="line">$ npm install hexo-deployer-git</span><br><span class="line">$ npm install -g gulp</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>通过命令进行部署</p>
 <ul>
-<li><p>如果不想每次以git执行sudo命令输入密码,修改添加</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">## Allow root to run any commands anywhere</span><br><span class="line">root    ALL=(ALL)     ALL</span><br><span class="line">## Add by qichao for git on 20180414</span><br><span class="line">git   ALL=(ALL) NOPASSWD: ALL</span><br></pre></td></tr></table></figure>
+<li><p>调试:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo s --debug</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>然后就可以切换到 git 用户了</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ su git</span><br><span class="line">$ <span class="built_in">cd</span> ~</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h1 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h1><ul>
-<li><p>安装依赖</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>下载编译</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.17.0.tar.gz</span><br><span class="line">$ tar -zxf git-2.17.0.tar.gz</span><br><span class="line">$ <span class="built_in">cd</span> git-2.17.0</span><br><span class="line">$ make prefix=/usr/<span class="built_in">local</span> all</span><br><span class="line">$ sudo make prefix=/usr/<span class="built_in">local</span> install</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Git tar包的下载链接 <a href="https://mirrors.edge.kernel.org/pub/software/scm/git/" target="_blank" rel="noopener">Linxu下载</a></p>
+<li><p>部署:(部署前需要配置Hexo的_config文件)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h1 id="Git配置"><a href="#Git配置" class="headerlink" title="Git配置"></a>Git配置</h1><ul>
-<li><p>配置用户名和邮箱</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"yourname"</span></span><br><span class="line">$ git config --global user.email <span class="string">"youremail"</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>生成 SSH 密钥, 在命令执行过程中一路回车即可,不需要输入密码</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"youremail@example.com"</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>然后执行命令查看公钥, 将该公钥拷贝到Github上就可以提交代码</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">eval</span> `ssh-agent`</span><br><span class="line">$ ssh-add ~/.ssh/id_rsa</span><br><span class="line">$ cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<ul>
-<li><p>创建一个裸仓库的命令</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /home/git/</span><br><span class="line">$ git init --bare xxxx.git</span><br><span class="line">$ chown -R git:git xxxx.git</span><br></pre></td></tr></table></figure>
+<h1 id="本地一键更新"><a href="#本地一键更新" class="headerlink" title="本地一键更新"></a>本地一键更新</h1><ul>
+<li><p>服务器端编写脚本命令更新并部署Hexo</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#！/bin/sh</span></span><br><span class="line"><span class="comment"># autohexo.sh</span></span><br><span class="line"><span class="keyword">if</span> [ ! -d <span class="string">"/home/git/qczhong2011.github.io/"</span> ]; <span class="keyword">then</span></span><br><span class="line">  <span class="built_in">exit</span> 0</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="built_in">cd</span> /home/git/qczhong2011.github.io/</span><br><span class="line">git reset --hard HEAD</span><br><span class="line">git pull</span><br><span class="line"><span class="comment">#git fetch origin master</span></span><br><span class="line">npm run d</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>克隆仓库的命令</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> git@yourserverip:/home/git/xxxx.git</span><br></pre></td></tr></table></figure>
+<li><p>服务器端利用Webhooks或者本地hook实现自动触发<br>利用Github的Webhook功能(代码托管到Github)<br>利用本地hook功能呢(代码托管到私有服务器)   </p>
 </li>
-<li><p>提交命令</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git status</span><br><span class="line">$ git add </span><br><span class="line">$ git commit -m <span class="string">"comments"</span></span><br><span class="line">$ git push origin master</span><br></pre></td></tr></table></figure>
+<li><p>客户端可以是电脑客户端也可以是手机客户端<br>利用手机端随时更新博客的功能<br>iphone Git客户端推荐 <strong>Working Copy</strong><br>Android Git客户端推荐 <strong>Pocket Git</strong></p>
 </li>
 </ul>
-<h1 id="创建证书免密登录"><a href="#创建证书免密登录" class="headerlink" title="创建证书免密登录"></a>创建证书免密登录</h1><p>把需要免密登录的公钥写入到 .ssh/authorized_keys文件中即可</p>
-<ul>
-<li>第一次登录会需要记录IP地址<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /home/git</span><br><span class="line">$ chmod 700 .ssh</span><br><span class="line">$ touch .ssh/authorized_keys</span><br><span class="line">$ chmod 600 .ssh/authorized_keys</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>PS: 官方使用教程: <a href="https://git-scm.com/book/zh/v2" target="_blank" rel="noopener">传送门</a></p>
 
       
     </div>
@@ -554,7 +564,7 @@
     <strong>本文作者： </strong>ZhongQiChao</li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://www.zingqi.com/2018/04-14/zqc_install_git_on_linux_via_sourcecode/" title="Linux下源码安装及配置Git">https://www.zingqi.com/2018/04-14/zqc_install_git_on_linux_via_sourcecode/</a>
+    <a href="https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html" title="服务器自动解析并部署Hexo">https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>
@@ -568,9 +578,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Git/" rel="tag"><i class="fa fa-tag"></i> Git</a>
+            <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
           
-            <a href="/tags/ssh-keygen/" rel="tag"><i class="fa fa-tag"></i> ssh-keygen</a>
+            <a href="/tags/nvm/" rel="tag"><i class="fa fa-tag"></i> nvm</a>
           
         </div>
       
@@ -583,8 +593,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/04-03/zqc_hello_world_on_hexo/" rel="next" title="写在前面">
-                <i class="fa fa-chevron-left"></i> 写在前面
+              <a href="/2018/04-14/zqc_install_git_on_linux_via_sourcecode.html" rel="next" title="Linux下源码安装及配置Git">
+                <i class="fa fa-chevron-left"></i> Linux下源码安装及配置Git
               </a>
             
           </div>
@@ -593,8 +603,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server/" rel="prev" title="服务器自动解析并部署Hexo">
-                服务器自动解析并部署Hexo <i class="fa fa-chevron-right"></i>
+              <a href="/2018/04-16/zqc_start_virtualbox_error_on_ubuntu14.04.html" rel="prev" title="Ubuntu14.04 VirtualBox启动报错">
+                Ubuntu14.04 VirtualBox启动报错 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -804,7 +814,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#准备工作"><span class="nav-number">1.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#源码安装"><span class="nav-number">2.</span> <span class="nav-text">源码安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Git配置"><span class="nav-number">3.</span> <span class="nav-text">Git配置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#创建证书免密登录"><span class="nav-number">4.</span> <span class="nav-text">创建证书免密登录</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#准备工作"><span class="nav-number">1.</span> <span class="nav-text">准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#基于Github-双分支思路备份源码"><span class="nav-number">1.1.</span> <span class="nav-text">基于Github 双分支思路备份源码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基于Git-Hooks思路自动部署网页"><span class="nav-number">1.2.</span> <span class="nav-text">基于Git Hooks思路自动部署网页</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#服务器解析部署实现"><span class="nav-number">2.</span> <span class="nav-text">服务器解析部署实现</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Git"><span class="nav-number">2.1.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Node"><span class="nav-number">2.2.</span> <span class="nav-text">安装Node</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装nvm"><span class="nav-number">2.2.1.</span> <span class="nav-text">安装nvm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基于nvm安装Node"><span class="nav-number">2.2.2.</span> <span class="nav-text">基于nvm安装Node</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Hexo"><span class="nav-number">2.3.</span> <span class="nav-text">安装Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#初始化安装"><span class="nav-number">2.3.1.</span> <span class="nav-text">初始化安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#还原式安装-如果采用了双分支备份思路"><span class="nav-number">2.3.2.</span> <span class="nav-text">还原式安装 (如果采用了双分支备份思路)</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#本地一键更新"><span class="nav-number">3.</span> <span class="nav-text">本地一键更新</span></a></li></ol></div>
             
 
           </div>
