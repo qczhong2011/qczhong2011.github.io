@@ -4,14 +4,56 @@
   <url>
     <loc>https://www.zingqi.com/favorite/index.html</loc>
     
-    <lastmod>2018-05-17T13:56:02.291Z</lastmod>
+    <lastmod>2018-05-17T14:23:02.541Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/photos/workthings/index.html</loc>
+    
+    <lastmod>2018-05-17T14:23:02.541Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/photos/weekendlife/index.html</loc>
+    
+    <lastmod>2018-05-17T14:23:02.541Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/photos/honghuahu/index.html</loc>
+    
+    <lastmod>2018-05-17T14:23:02.541Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/photos/dali/index.html</loc>
+    
+    <lastmod>2018-05-17T14:23:02.541Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/photos/bali/index.html</loc>
+    
+    <lastmod>2018-05-17T14:23:02.541Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.zingqi.com/photos/badminton/index.html</loc>
     
-    <lastmod>2018-05-08T14:11:02.277Z</lastmod>
+    <lastmod>2018-05-17T14:23:02.541Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/photos/index.html</loc>
+    
+    <lastmod>2018-05-17T14:23:02.541Z</lastmod>
     
   </url>
   
@@ -23,28 +65,14 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/photos/index.html</loc>
-    
-    <lastmod>2018-04-27T16:59:03.307Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/photos/workthings/index.html</loc>
-    
-    <lastmod>2018-04-27T16:55:02.445Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/2018/04-27/zqc_elegantly_switch_from_ubuntu14_to_debian9.html</loc>
+    <loc>https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html</loc>
     
     <lastmod>2018-04-27T16:23:02.569Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html</loc>
+    <loc>https://www.zingqi.com/2018/04-27/zqc_elegantly_switch_from_ubuntu14_to_debian9.html</loc>
     
     <lastmod>2018-04-27T16:23:02.569Z</lastmod>
     
@@ -79,30 +107,9 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/photos/weekendlife/index.html</loc>
+    <loc>https://www.zingqi.com/technology/index.html</loc>
     
-    <lastmod>2018-04-25T05:49:02.622Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/photos/honghuahu/index.html</loc>
-    
-    <lastmod>2018-04-24T09:59:02.964Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/photos/bali/index.html</loc>
-    
-    <lastmod>2018-04-24T09:59:02.963Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/photos/dali/index.html</loc>
-    
-    <lastmod>2018-04-24T09:59:02.963Z</lastmod>
+    <lastmod>2018-04-21T05:35:06.217Z</lastmod>
     
   </url>
   
@@ -121,20 +128,6 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/technology/index.html</loc>
-    
-    <lastmod>2018-04-21T05:35:06.217Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/board/index.html</loc>
-    
-    <lastmod>2018-04-21T05:35:06.216Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.zingqi.com/categories/index.html</loc>
     
     <lastmod>2018-04-21T05:35:06.216Z</lastmod>
@@ -143,6 +136,13 @@
   
   <url>
     <loc>https://www.zingqi.com/essays/index.html</loc>
+    
+    <lastmod>2018-04-21T05:35:06.216Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/board/index.html</loc>
     
     <lastmod>2018-04-21T05:35:06.216Z</lastmod>
     
