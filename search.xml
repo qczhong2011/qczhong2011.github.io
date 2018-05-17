@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[Ubuntu14.04 切换到Debian 9]]></title>
-    <url>%2Fzqc_elegantly_switch_from_ubuntu14_to_debian9.html</url>
+    <url>%2F2018%2F04-27%2Fzqc_elegantly_switch_from_ubuntu14_to_debian9%2F</url>
     <content type="text"><![CDATA[码字用的惠普台式机默认安装ubuntu14.04，系统桌面经常无缘无故就卡死，只能断电重启才恢复，非常闹心。终于决定把工作环境切换到Debian系统。 前期准备 备份备份备份需要将原Ubuntu电脑的数据进行备份，主要有以下几类 1234561. 配置信息，主要是~/.bashrc文件和/etc/profile文件2. ssh密钥，~/.ssh文件夹以及~/.gitconfig文件3. Android Studio安装文件和SDK文件夹4. 虚拟机中的虚拟硬盘5. 常用的deb安装文件(BeyondCompare/Sublime_test/Chrome)6. 个人资料和工作需要使用的资料，包括但不限于源码图片文档和代码 准备Deiban的U盘安装工具从Debian官网下载合适的安装盘，这里选择的是通过torrent下载DVD镜像使用软碟通软件制作U盘启动盘：传送门只需要下载下图的第一个torrent就可以了，另外两个是软件包，不需要下载 软件安装 系统安装由于已经做好资源备份，安装系统的时候，采用安装盘建议的分区进行安装，抹除了安装盘原有的数据。安装过程中会要求创建root密码，创建一个普通用户，以及部分其他设定。 软件安装主要是将前面备份的资料还原回来,Android编译环境配置 1234567bash配置还原 git安装及配置还原，参考：&#123;% post_link zqc_install_git_on_linux_via_sourcecode Linux下源码安装及配置Git %&#125; Android Studio安装还原和环境参数配置 虚拟机安装，使用备份的虚拟硬盘加载 常用软件安装及配置(Bcompare/Meld/Sublime/Chrome等) Android编译环境配置和测试 中文输入法安装和配置(这一步暂时没有调通，还在使用英文) 安装细节 部分配置命令Debian系统默认使用dash，以及默认不支持i386架构软件 1234# 配置默认shell为bash$ sudo dpkg-reconfigure dash# 增加对i386架构的支持$ sudo dpkg --add-architecture i386 repo下载代码失败使用的是clone下来的git工具命令，在使用repo命令的时候，会尝试从google服务器执行git库更新，导致连接失败。需要在~/.bashrc文件增加一行 1export REPO_URL='https://gerrit-googlesource.lug.ustc.edu.cn/git-repo' 编译Android源码失败Debian默认使用的是V1.1.0版本的openssl，源码使用V1.0.1出错是因为代码中限定使用的是V1.0.1，导致如下函数返回false，请看：解决：官网下载链接 1231.从openssl官网下载1.0.1版本的openssl，按照README文档进行默认安装2.安装后，修改~/.bashrc $PATH变量值，默认使用openssl 1.0.1版本 export PATH=/usr/local/ssl/bin:$PATH 编译过程中还遇到执行 mkisofs 命令出错，手动安装即可 编译成功]]></content>
       <categories>
         <category>Tech</category>
@@ -14,7 +14,7 @@
   </entry>
   <entry>
     <title><![CDATA[Ubuntu14.04 新增硬盘挂载]]></title>
-    <url>%2Fzqc_mount_new_hardisk_on_ubuntu14.04.html</url>
+    <url>%2F2018%2F04-17%2Fzqc_mount_new_hardisk_on_ubuntu14.04%2F</url>
     <content type="text"><![CDATA[在Ubuntu下新增了一块2T的硬盘,需要对硬盘进行挂载和格式化 检查当前有哪些硬盘挂载了12# 执行 fdisk 命令必须要root权限$ sudo fdisk -l 123456Disk /dev/sdb: 1000.2 GB, 1000204886016 bytes255 heads, 63 sectors/track, 121601 cylinders, total 1953525168 sectorsUnits = sectors of 1 * 512 = 512 bytesSector size (logical/physical): 512 bytes / 4096 bytesI/O size (minimum/optimal): 4096 bytes / 4096 bytesDisk identifier: 0x00000000 为新增硬盘进行gpt分区操作1234567891011121314151617$ sudo parted /dev/sdb # 先查看下该硬盘的分区信息 (parted) print # 建立gpt分区表 (parted) mklabel gpt # 确认该硬盘新的分区信息 (parted) print # 分配硬盘地址空间范围, 1000GB是空盘大小 (parted) mkpart primary 0KB 1000GB # 确认问题提示 Y # 忽视提示问题 I # 确认该硬盘新的分区信息 (parted) print # 退出分区操作 (parted) quit 格式化新分区,并手动挂载1234567$ sudo mkfs -t ext4 /dev/sdb1 # sdb1 是分区后的默认盘号$ sudo mkdir -p /local/sdb # 新建文件用于挂载分区$ sudo chown -R user:user /local/sdb # 修改挂载点为当前用户$ sudo chmod 777 /local/sdb# 挂载硬盘并设置为读写权限$ sudo mount -t ext4 -o rw /dev/sdb1 /local/sdb$ mount 设置每次开机自动挂载123$ sudo vim /etc/fstab# 在文件中增加如下行 /dev/sdb1 /local/sdb ext4 defaults 0 0 重启电脑即可生效如果重启时发现提示错误,可以先按下”S”跳过错误,再检查一遍是否设置有误]]></content>
       <categories>
         <category>Question</category>
@@ -25,7 +25,7 @@
   </entry>
   <entry>
     <title><![CDATA[Ubuntu14.04 VirtualBox启动报错]]></title>
-    <url>%2Fzqc_start_virtualbox_error_on_ubuntu14.04.html</url>
+    <url>%2F2018%2F04-16%2Fzqc_start_virtualbox_error_on_ubuntu14.04%2F</url>
     <content type="text"><![CDATA[问题描述: 新安装的ubuntu14.04 系统,启动VirtualBox报错,提示”Kernel driver not installed” 将当前用户加入vboxusers用户组1$ sudo usermod -G vboxusers -a yourname 安装组件1234$ sudo apt-get update$ sudo apt-get install linux-headers-`uname -r`build-essential$ sudo apt-get install virtualbox-dkms$ sudo dpkg-reconfigure virtualbox-dkms 加载组件12$ ll /dev/ | grep vboxdrv$ sudo modprobe vboxdrv 重新安装 vboxdrv1$ sudo /etc/init.d/vboxdrv start 正常启动 VirtualBox]]></content>
       <categories>
         <category>Question</category>
@@ -36,7 +36,7 @@
   </entry>
   <entry>
     <title><![CDATA[服务器自动解析并部署Hexo]]></title>
-    <url>%2Fzqc_deploy_hexo_on_aliyun_ecs_server.html</url>
+    <url>%2F2018%2F04-14%2Fzqc_deploy_hexo_on_aliyun_ecs_server%2F</url>
     <content type="text"><![CDATA[基于GitHub双分支思路备份源码, 基于Git Hooks思路自动部署网页客户端完成博客更新和配置修改, 服务器端解析并部署成静态网页随时随地可以push更新到服务器, 服务器检测到更新后自动部署 准备工作基于Github 双分支思路备份源码 在Github Pages仓库中创建两个分支:master 和 hexo 设置hexo为默认分支 采用 Use SSH 方式将该仓库clone到本地 将hexo文件夹中的文件复制到clone下来的git仓库中 不要遗漏 .gitignore文件,并将 theme/next/目录下的.git/文件夹删掉 将更新Push到git仓库123$ git add .$ git commit -m "init hexo source code"$ git push origin hexo 基于Git Hooks思路自动部署网页 在云服务器中新建一个裸仓 12$ git init --bare zingqi.git$ chown -R git:git zingqi.git 在裸仓的zingqi.git/hooks/文件夹目录下创建文件 post-receive,并写入 12#! /bin/shgit --work-tree=/usr/local/nginx/html/zingqi --git-dir=/home/git/zingqi.git checkout -f 给该文件添加可执行权限 1$ chmod +x post-receive 在hexo项目目录中,修改配置文件的deploy项目,使得每次deploy时将结果push到zingqi.git 12345deploy: type: git repo: gitecs: git@yourserverIP:/home/git/zingqi.git,master message: 服务器解析部署实现安装Git可参考: Linux下源码安装及配置Git 安装Node安装nvm 不建议采用 官方文档 的安装方式,后期可能会报错 通过 nvm官方说明 进行安装 使用 curl 方式 1$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash 使用 wget方式 1wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash 安装完成后, 重启终端使命令路径生效 基于nvm安装Node1$ nvm install stable 安装Hexo 先检查下当前git和node是否安装正常12$ git --version$ node --version 初始化安装12345$ npm install -g hexo-cli$ hexo init &lt;folder&gt;$ cd &lt;folder&gt;$ npm install$ npm install hexo-deployer-git 还原式安装 (如果采用了双分支备份思路) 使用git将远程hexo仓库clone到本地后,执行以下命令 1234$ npm install hexo-cli -g$ npm install$ npm install hexo-deployer-git$ npm install -g gulp 通过命令进行部署 调试: 1$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo s --debug 部署:(部署前需要配置Hexo的_config文件) 1hexo clean &amp;&amp; hexo g &amp;&amp; hexo d 本地一键更新 服务器端编写脚本命令更新并部署Hexo 12345678910#！/bin/sh# autohexo.shif [ ! -d "/home/git/qczhong2011.github.io/" ]; then exit 0ficd /home/git/qczhong2011.github.io/git reset --hard HEADgit pull#git fetch origin masternpm run d 服务器端利用Webhooks或者本地hook实现自动触发利用Github的Webhook功能(代码托管到Github)利用本地hook功能呢(代码托管到私有服务器) 客户端可以是电脑客户端也可以是手机客户端利用手机端随时更新博客的功能iphone Git客户端推荐 Working CopyAndroid Git客户端推荐 Pocket Git]]></content>
       <categories>
         <category>Tech</category>
@@ -48,7 +48,7 @@
   </entry>
   <entry>
     <title><![CDATA[Linux下源码安装及配置Git]]></title>
-    <url>%2Fzqc_install_git_on_linux_via_sourcecode.html</url>
+    <url>%2F2018%2F04-14%2Fzqc_install_git_on_linux_via_sourcecode%2F</url>
     <content type="text"><![CDATA[Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目. 在官方安装介绍里面, 包含了源码安装方式和二进制安装方式, 传送门本文主要记录在Linxu中使用源码安装和配置命令 准备工作如果当前是root用户,那么最好创建一个 git 用户, 以git用户操作下面的步骤 创建git用户并设置密码 12$ sudo adduser git # 创建git用户$ sudo passwd git # 设置git密码 给git用户添加sudo权限 12$ sudo chmod 740 /etc/sudoers$ sudo vim /etc/sudoers 在/etc/sudoers 文件中,添加一行 1234## Allow root to run any commands anywhereroot ALL=(ALL) ALL## Add by qichao for git on 20180414git ALL=(ALL) ALL 如果不想每次以git执行sudo命令输入密码,修改添加 1234## Allow root to run any commands anywhereroot ALL=(ALL) ALL## Add by qichao for git on 20180414git ALL=(ALL) NOPASSWD: ALL 然后就可以切换到 git 用户了 12$ su git$ cd ~ 源码安装 安装依赖 1$ yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel 下载编译 12345$ wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.17.0.tar.gz$ tar -zxf git-2.17.0.tar.gz$ cd git-2.17.0$ make prefix=/usr/local all$ sudo make prefix=/usr/local install Git tar包的下载链接 Linxu下载 Git配置 配置用户名和邮箱 12$ git config --global user.name "yourname"$ git config --global user.email "youremail" 生成 SSH 密钥, 在命令执行过程中一路回车即可,不需要输入密码 1$ ssh-keygen -t rsa -C "youremail@example.com" 然后执行命令查看公钥, 将该公钥拷贝到Github上就可以提交代码 123$ eval `ssh-agent`$ ssh-add ~/.ssh/id_rsa$ cat ~/.ssh/id_rsa.pub 创建一个裸仓库的命令 123$ cd /home/git/$ git init --bare xxxx.git$ chown -R git:git xxxx.git 克隆仓库的命令 1$ git clone git@yourserverip:/home/git/xxxx.git 提交命令 1234$ git status$ git add $ git commit -m "comments"$ git push origin master 创建证书免密登录把需要免密登录的公钥写入到 .ssh/authorized_keys文件中即可 第一次登录会需要记录IP地址1234$ cd /home/git$ chmod 700 .ssh$ touch .ssh/authorized_keys$ chmod 600 .ssh/authorized_keys PS: 官方使用教程: 传送门]]></content>
       <categories>
         <category>Tech</category>
@@ -60,7 +60,7 @@
   </entry>
   <entry>
     <title><![CDATA[写在前面]]></title>
-    <url>%2Fzqc_hello_world_on_hexo.html</url>
+    <url>%2F2018%2F04-03%2Fzqc_hello_world_on_hexo%2F</url>
     <content type="text"><![CDATA[The second you think it’s so late is the fastest moment.觉得为时已晚的时候,恰恰是最早的时候. – 哈佛校训 建一个自己的空间,记录些生活,总结些失败经历, 虽然没有什么意义, 却会很有意思总算是在今年清明节假期,迈出了为时已晚的第一步, 把空间搭起来了 基于 Hexo + Github Pages + 域名解析 建立起了这个网站 基于 Hexo + nexT 主题修改成自己喜欢的风格, 添加 留言板 和 相册 功能 挑选合适的域名,Zingqi.COM 自己制作网站的Favicon以及头像 写些什么空间当然首先是为自己服务的.在日常的生活,有很多值得我们纪念的东西.在日复一日的工作中,也会有很多经验和教训也是应该记下来的.另外,作为一个小文艺,也许会有些小情绪可以吐槽的.总结了下空间可以写的东西如下: 工作经验的备忘和归档 技术解决方案总结分享 自己的读书笔记和想法 生活和情绪的记录表达 或许还有有了相册模块,就可以留念生活中的点点滴滴. 也可以分享有趣的电影和音乐.有了留言模块,就可以和大家交流,相互学习和提高在搭建空间的过程中,也可以学习到很多东西]]></content>
       <categories>
         <category>Essay</category>

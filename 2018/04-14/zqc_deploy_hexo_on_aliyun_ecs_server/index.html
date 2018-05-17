@@ -83,32 +83,32 @@
 
 
 
-  <meta name="description" content="在Ubuntu下新增了一块2T的硬盘,需要对硬盘进行挂载和格式化  检查当前有哪些硬盘挂载了12# 执行 fdisk 命令必须要root权限$ sudo fdisk -l">
-<meta name="keywords" content="fdisk">
+  <meta name="description" content="基于GitHub双分支思路备份源码, 基于Git Hooks思路自动部署网页客户端完成博客更新和配置修改, 服务器端解析并部署成静态网页随时随地可以push更新到服务器, 服务器检测到更新后自动部署">
+<meta name="keywords" content="Hexo,nvm">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Ubuntu14.04 新增硬盘挂载">
-<meta property="og:url" content="https://www.zingqi.com/zqc_mount_new_hardisk_on_ubuntu14.04.html">
+<meta property="og:title" content="服务器自动解析并部署Hexo">
+<meta property="og:url" content="https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server/index.html">
 <meta property="og:site_name" content="映七空间">
-<meta property="og:description" content="在Ubuntu下新增了一块2T的硬盘,需要对硬盘进行挂载和格式化  检查当前有哪些硬盘挂载了12# 执行 fdisk 命令必须要root权限$ sudo fdisk -l">
+<meta property="og:description" content="基于GitHub双分支思路备份源码, 基于Git Hooks思路自动部署网页客户端完成博客更新和配置修改, 服务器端解析并部署成静态网页随时随地可以push更新到服务器, 服务器检测到更新后自动部署">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/mount_new_disk_1.png">
-<meta property="og:updated_time" content="2018-04-26T16:26:03.344Z">
+<meta property="og:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/deploy_hexo_on_aliyun_ecs_1.jpg">
+<meta property="og:updated_time" content="2018-04-27T16:23:02.569Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ubuntu14.04 新增硬盘挂载">
-<meta name="twitter:description" content="在Ubuntu下新增了一块2T的硬盘,需要对硬盘进行挂载和格式化  检查当前有哪些硬盘挂载了12# 执行 fdisk 命令必须要root权限$ sudo fdisk -l">
-<meta name="twitter:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/mount_new_disk_1.png">
+<meta name="twitter:title" content="服务器自动解析并部署Hexo">
+<meta name="twitter:description" content="基于GitHub双分支思路备份源码, 基于Git Hooks思路自动部署网页客户端完成博客更新和配置修改, 服务器端解析并部署成静态网页随时随地可以push更新到服务器, 服务器检测到更新后自动部署">
+<meta name="twitter:image" content="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/deploy_hexo_on_aliyun_ecs_1.jpg">
 
 
 
 
 
 
-  <link rel="canonical" href="https://www.zingqi.com/zqc_mount_new_hardisk_on_ubuntu14.04.html">
+  <link rel="canonical" href="https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server/">
 
 
 
 <script id="page.configurations">CONFIG.page={sidebar:""}</script>
-  <title>Ubuntu14.04 新增硬盘挂载 | 映七空间</title>
+  <title>服务器自动解析并部署Hexo | 映七空间</title>
   
 
 
@@ -297,7 +297,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.zingqi.com/zqc_mount_new_hardisk_on_ubuntu14.04.html">
+    <link itemprop="mainEntityOfPage" href="https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ZhongQiChao">
@@ -314,7 +314,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Ubuntu14.04 新增硬盘挂载
+          <h2 class="post-title" itemprop="name headline">服务器自动解析并部署Hexo
               
             
           </h2>
@@ -337,7 +337,7 @@
                 
               
 
-              <time title="创建时间：2018-04-17 15:12:07" itemprop="dateCreated datePublished" datetime="2018-04-17T15:12:07+08:00">2018-04-17</time>
+              <time title="创建时间：2018-04-14 15:54:47" itemprop="dateCreated datePublished" datetime="2018-04-14T15:54:47+08:00">2018-04-14</time>
             
 
             
@@ -353,7 +353,7 @@
               </span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Question/" itemprop="url" rel="index"><span itemprop="name">Question</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Tech/" itemprop="url" rel="index"><span itemprop="name">Tech</span></a></span>
 
                 
                 
@@ -387,7 +387,7 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 
-                <span title="本文字数">1.1k</span>
+                <span title="本文字数">2k</span>
               
 
               
@@ -399,7 +399,7 @@
                   <i class="fa fa-clock-o"></i>
                 </span>
                 
-                <span title="阅读时长">0:01</span>
+                <span title="阅读时长">0:02</span>
               
             </div>
           
@@ -417,19 +417,95 @@
 
       
       
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox" href="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/deploy_hexo_on_aliyun_ecs_1.jpg" rel="gallery_cjha54wb20001pcrobtpndogx" itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/deploy_hexo_on_aliyun_ecs_1.jpg" itemprop="contentUrl">
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
+      
 
       
         <blockquote>
-<p>在Ubuntu下新增了一块2T的硬盘,需要对硬盘进行挂载和格式化</p>
+<p>基于GitHub双分支思路备份源码, 基于Git Hooks思路自动部署网页<br>客户端完成博客更新和配置修改, 服务器端解析并部署成静态网页<br>随时随地可以push更新到服务器, 服务器检测到更新后自动部署</p>
 </blockquote>
-<h1 id="检查当前有哪些硬盘挂载了"><a href="#检查当前有哪些硬盘挂载了" class="headerlink" title="检查当前有哪些硬盘挂载了"></a>检查当前有哪些硬盘挂载了</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 执行 fdisk 命令必须要root权限</span></span><br><span class="line">$ sudo fdisk -l</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Disk /dev/sdb: 1000.2 GB, 1000204886016 bytes</span><br><span class="line">255 heads, 63 sectors/track, 121601 cylinders, total 1953525168 sectors</span><br><span class="line">Units = sectors of 1 * 512 = 512 bytes</span><br><span class="line">Sector size (logical/physical): 512 bytes / 4096 bytes</span><br><span class="line">I/O size (minimum/optimal): 4096 bytes / 4096 bytes</span><br><span class="line">Disk identifier: 0x00000000</span><br></pre></td></tr></table></figure>
-<h1 id="为新增硬盘进行gpt分区操作"><a href="#为新增硬盘进行gpt分区操作" class="headerlink" title="为新增硬盘进行gpt分区操作"></a>为新增硬盘进行gpt分区操作</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">$ sudo parted /dev/sdb</span><br><span class="line">  # 先查看下该硬盘的分区信息</span><br><span class="line">  (parted) print</span><br><span class="line">  # 建立gpt分区表</span><br><span class="line">  (parted) mklabel gpt</span><br><span class="line">  # 确认该硬盘新的分区信息</span><br><span class="line">  (parted) print</span><br><span class="line">  # 分配硬盘地址空间范围, 1000GB是空盘大小</span><br><span class="line">  (parted) mkpart primary 0KB 1000GB</span><br><span class="line">  # 确认问题提示</span><br><span class="line">  Y</span><br><span class="line">  # 忽视提示问题</span><br><span class="line">  I</span><br><span class="line">  # 确认该硬盘新的分区信息</span><br><span class="line">  (parted) print</span><br><span class="line">  # 退出分区操作</span><br><span class="line">  (parted) quit</span><br></pre></td></tr></table></figure>
-<h1 id="格式化新分区-并手动挂载"><a href="#格式化新分区-并手动挂载" class="headerlink" title="格式化新分区,并手动挂载"></a>格式化新分区,并手动挂载</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ sudo mkfs -t ext4 /dev/sdb1   <span class="comment"># sdb1 是分区后的默认盘号</span></span><br><span class="line">$ sudo mkdir -p /<span class="built_in">local</span>/sdb     <span class="comment"># 新建文件用于挂载分区</span></span><br><span class="line">$ sudo chown -R user:user /<span class="built_in">local</span>/sdb    <span class="comment"># 修改挂载点为当前用户</span></span><br><span class="line">$ sudo chmod 777 /<span class="built_in">local</span>/sdb</span><br><span class="line"><span class="comment"># 挂载硬盘并设置为读写权限</span></span><br><span class="line">$ sudo mount -t ext4 -o rw /dev/sdb1  /<span class="built_in">local</span>/sdb</span><br><span class="line">$ mount</span><br></pre></td></tr></table></figure>
-<h1 id="设置每次开机自动挂载"><a href="#设置每次开机自动挂载" class="headerlink" title="设置每次开机自动挂载"></a>设置每次开机自动挂载</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo vim /etc/fstab</span><br><span class="line"><span class="comment"># 在文件中增加如下行 </span></span><br><span class="line">/dev/sdb1       /<span class="built_in">local</span>/sdb      ext4    defaults    0       0</span><br></pre></td></tr></table></figure>
-<p><img src="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/mount_new_disk_1.png" alt="添加一行"></p>
-<h1 id="重启电脑即可生效"><a href="#重启电脑即可生效" class="headerlink" title="重启电脑即可生效"></a>重启电脑即可生效</h1><p>如果重启时发现提示错误,可以先按下”S”跳过错误,再检查一遍是否设置有误</p>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="基于Github-双分支思路备份源码"><a href="#基于Github-双分支思路备份源码" class="headerlink" title="基于Github 双分支思路备份源码"></a>基于Github 双分支思路备份源码</h2><ul>
+<li>在Github Pages仓库中创建两个分支:master 和 hexo</li>
+<li>设置hexo为默认分支</li>
+<li>采用 Use SSH 方式将该仓库clone到本地<br><img src="https://zingqi.oss-cn-shenzhen.aliyuncs.com/post/deploy_hexo_on_aliyun_ecs_2.jpg" alt="Use SSH"></li>
+<li>将hexo文件夹中的文件复制到clone下来的git仓库中</li>
+<li>不要遗漏 .gitignore文件,并将 theme/next/目录下的.git/文件夹删掉</li>
+<li>将更新Push到git仓库<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git add .</span><br><span class="line">$ git commit -m <span class="string">"init hexo source code"</span></span><br><span class="line">$ git push origin hexo</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="基于Git-Hooks思路自动部署网页"><a href="#基于Git-Hooks思路自动部署网页" class="headerlink" title="基于Git Hooks思路自动部署网页"></a>基于Git Hooks思路自动部署网页</h2><ul>
+<li><p>在云服务器中新建一个裸仓</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git init --bare zingqi.git</span><br><span class="line">$ chown -R git:git zingqi.git</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在裸仓的zingqi.git/hooks/文件夹目录下创建文件 post-receive,并写入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#! /bin/sh</span><br><span class="line">git --work-tree=/usr/local/nginx/html/zingqi --git-dir=/home/git/zingqi.git checkout -f</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>给该文件添加可执行权限</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ chmod +x post-receive</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在hexo项目目录中,修改配置文件的deploy项目,使得每次deploy时将结果push到zingqi.git</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: </span><br><span class="line">    gitecs: git@yourserverIP:/home/git/zingqi.git,master</span><br><span class="line">  message:</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="服务器解析部署实现"><a href="#服务器解析部署实现" class="headerlink" title="服务器解析部署实现"></a>服务器解析部署实现</h1><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>可参考: <a href="/2018/04-14/zqc_install_git_on_linux_via_sourcecode/" title="Linux下源码安装及配置Git">Linux下源码安装及配置Git</a></p>
+<h2 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node"></a>安装Node</h2><h3 id="安装nvm"><a href="#安装nvm" class="headerlink" title="安装nvm"></a>安装nvm</h3><ul>
+<li>不建议采用 <a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">官方文档</a>  的安装方式,后期可能会报错</li>
+<li><p>通过 <a href="https://github.com/creationix/nvm#install-script" target="_blank" rel="noopener">nvm官方说明</a>   进行安装</p>
+<ul>
+<li><p>使用 curl 方式</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用 wget方式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>安装完成后, 重启终端使命令路径生效</p>
+</li>
+</ul>
+<h3 id="基于nvm安装Node"><a href="#基于nvm安装Node" class="headerlink" title="基于nvm安装Node"></a>基于nvm安装Node</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ nvm install stable</span><br></pre></td></tr></table></figure>
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><ul>
+<li>先检查下当前git和node是否安装正常<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br><span class="line">$ node --version</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="初始化安装"><a href="#初始化安装" class="headerlink" title="初始化安装"></a>初始化安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br><span class="line">$ npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
+<h3 id="还原式安装-如果采用了双分支备份思路"><a href="#还原式安装-如果采用了双分支备份思路" class="headerlink" title="还原式安装 (如果采用了双分支备份思路)"></a>还原式安装 (如果采用了双分支备份思路)</h3><ul>
+<li><p>使用git将远程hexo仓库clone到本地后,执行以下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ npm install</span><br><span class="line">$ npm install hexo-deployer-git</span><br><span class="line">$ npm install -g gulp</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>通过命令进行部署</p>
+<ul>
+<li><p>调试:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo s --debug</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>部署:(部署前需要配置Hexo的_config文件)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="本地一键更新"><a href="#本地一键更新" class="headerlink" title="本地一键更新"></a>本地一键更新</h1><ul>
+<li><p>服务器端编写脚本命令更新并部署Hexo</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#！/bin/sh</span></span><br><span class="line"><span class="comment"># autohexo.sh</span></span><br><span class="line"><span class="keyword">if</span> [ ! -d <span class="string">"/home/git/qczhong2011.github.io/"</span> ]; <span class="keyword">then</span></span><br><span class="line">  <span class="built_in">exit</span> 0</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="built_in">cd</span> /home/git/qczhong2011.github.io/</span><br><span class="line">git reset --hard HEAD</span><br><span class="line">git pull</span><br><span class="line"><span class="comment">#git fetch origin master</span></span><br><span class="line">npm run d</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>服务器端利用Webhooks或者本地hook实现自动触发<br>利用Github的Webhook功能(代码托管到Github)<br>利用本地hook功能呢(代码托管到私有服务器)   </p>
+</li>
+<li><p>客户端可以是电脑客户端也可以是手机客户端<br>利用手机端随时更新博客的功能<br>iphone Git客户端推荐 <strong>Working Copy</strong><br>Android Git客户端推荐 <strong>Pocket Git</strong></p>
+</li>
+</ul>
 
       
     </div>
@@ -482,13 +558,29 @@
       
       
       
+        <div>
+          <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>ZhongQiChao</li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server/" title="服务器自动解析并部署Hexo">https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>
+</ul>
+
+        </div>
+      
     
 
     <footer class="post-footer">
       
         <div class="post-tags">
           
-            <a href="/tags/fdisk/" rel="tag"><i class="fa fa-tag"></i> fdisk</a>
+            <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+          
+            <a href="/tags/nvm/" rel="tag"><i class="fa fa-tag"></i> nvm</a>
           
         </div>
       
@@ -501,8 +593,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/zqc_start_virtualbox_error_on_ubuntu14.04.html" rel="next" title="Ubuntu14.04 VirtualBox启动报错">
-                <i class="fa fa-chevron-left"></i> Ubuntu14.04 VirtualBox启动报错
+              <a href="/2018/04-14/zqc_install_git_on_linux_via_sourcecode/" rel="next" title="Linux下源码安装及配置Git">
+                <i class="fa fa-chevron-left"></i> Linux下源码安装及配置Git
               </a>
             
           </div>
@@ -511,8 +603,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/zqc_elegantly_switch_from_ubuntu14_to_debian9.html" rel="prev" title="Ubuntu14.04 切换到Debian 9">
-                Ubuntu14.04 切换到Debian 9 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/04-16/zqc_start_virtualbox_error_on_ubuntu14.04/" rel="prev" title="Ubuntu14.04 VirtualBox启动报错">
+                Ubuntu14.04 VirtualBox启动报错 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -722,7 +814,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#检查当前有哪些硬盘挂载了"><span class="nav-number">1.</span> <span class="nav-text">检查当前有哪些硬盘挂载了</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#为新增硬盘进行gpt分区操作"><span class="nav-number">2.</span> <span class="nav-text">为新增硬盘进行gpt分区操作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#格式化新分区-并手动挂载"><span class="nav-number">3.</span> <span class="nav-text">格式化新分区,并手动挂载</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#设置每次开机自动挂载"><span class="nav-number">4.</span> <span class="nav-text">设置每次开机自动挂载</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#重启电脑即可生效"><span class="nav-number">5.</span> <span class="nav-text">重启电脑即可生效</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#准备工作"><span class="nav-number">1.</span> <span class="nav-text">准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#基于Github-双分支思路备份源码"><span class="nav-number">1.1.</span> <span class="nav-text">基于Github 双分支思路备份源码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基于Git-Hooks思路自动部署网页"><span class="nav-number">1.2.</span> <span class="nav-text">基于Git Hooks思路自动部署网页</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#服务器解析部署实现"><span class="nav-number">2.</span> <span class="nav-text">服务器解析部署实现</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Git"><span class="nav-number">2.1.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Node"><span class="nav-number">2.2.</span> <span class="nav-text">安装Node</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装nvm"><span class="nav-number">2.2.1.</span> <span class="nav-text">安装nvm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基于nvm安装Node"><span class="nav-number">2.2.2.</span> <span class="nav-text">基于nvm安装Node</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Hexo"><span class="nav-number">2.3.</span> <span class="nav-text">安装Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#初始化安装"><span class="nav-number">2.3.1.</span> <span class="nav-text">初始化安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#还原式安装-如果采用了双分支备份思路"><span class="nav-number">2.3.2.</span> <span class="nav-text">还原式安装 (如果采用了双分支备份思路)</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#本地一键更新"><span class="nav-number">3.</span> <span class="nav-text">本地一键更新</span></a></li></ol></div>
             
 
           </div>
