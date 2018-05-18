@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.zingqi.com/favorite/index.temp.html</loc>
-    
-    <lastmod>2018-05-18T17:10:02.497Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.zingqi.com/favorite/index.html</loc>
     
     <lastmod>2018-05-18T17:06:58.056Z</lastmod>
@@ -23,6 +16,13 @@
   </url>
   
   <url>
+    <loc>https://www.zingqi.com/photos/dali/index.html</loc>
+    
+    <lastmod>2018-05-17T16:52:02.858Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.zingqi.com/photos/bali/index.html</loc>
     
     <lastmod>2018-05-17T16:52:02.858Z</lastmod>
@@ -31,13 +31,6 @@
   
   <url>
     <loc>https://www.zingqi.com/photos/workthings/index.html</loc>
-    
-    <lastmod>2018-05-17T16:52:02.858Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.zingqi.com/photos/dali/index.html</loc>
     
     <lastmod>2018-05-17T16:52:02.858Z</lastmod>
     
