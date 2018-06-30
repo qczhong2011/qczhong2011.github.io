@@ -4,19 +4,19 @@
   <url>
     <loc>https://www.zingqi.com/favorite/index.html</loc>
     
-    <lastmod>2018-06-24T23:34:05.969Z</lastmod>
+    <lastmod>2018-06-30T00:36:03.303Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/favorite/201804/index.html</loc>
+    <loc>https://www.zingqi.com/favorite/201805/index.html</loc>
     
     <lastmod>2018-06-03T10:43:03.022Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/favorite/201805/index.html</loc>
+    <loc>https://www.zingqi.com/favorite/201804/index.html</loc>
     
     <lastmod>2018-06-03T10:43:03.022Z</lastmod>
     
@@ -51,14 +51,14 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/photos/honghuahu/index.html</loc>
+    <loc>https://www.zingqi.com/photos/weekendlife/index.html</loc>
     
     <lastmod>2018-05-17T14:23:02.541Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/photos/weekendlife/index.html</loc>
+    <loc>https://www.zingqi.com/photos/honghuahu/index.html</loc>
     
     <lastmod>2018-05-17T14:23:02.541Z</lastmod>
     
@@ -79,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/2018/04-27/zqc_elegantly_switch_from_ubuntu14_to_debian9.html</loc>
+    <loc>https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html</loc>
     
     <lastmod>2018-04-27T16:23:02.569Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html</loc>
+    <loc>https://www.zingqi.com/2018/04-27/zqc_elegantly_switch_from_ubuntu14_to_debian9.html</loc>
     
     <lastmod>2018-04-27T16:23:02.569Z</lastmod>
     
@@ -107,14 +107,14 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/2018/04-17/zqc_mount_new_hardisk_on_ubuntu14.04.html</loc>
+    <loc>https://www.zingqi.com/2018/04-14/zqc_install_git_on_linux_via_sourcecode.html</loc>
     
     <lastmod>2018-04-26T16:26:03.344Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/2018/04-14/zqc_install_git_on_linux_via_sourcecode.html</loc>
+    <loc>https://www.zingqi.com/2018/04-17/zqc_mount_new_hardisk_on_ubuntu14.04.html</loc>
     
     <lastmod>2018-04-26T16:26:03.344Z</lastmod>
     
@@ -128,13 +128,6 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/technology/index.html</loc>
-    
-    <lastmod>2018-04-21T05:35:06.217Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.zingqi.com/tags/index.html</loc>
     
     <lastmod>2018-04-21T05:35:06.217Z</lastmod>
@@ -142,7 +135,14 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/categories/index.html</loc>
+    <loc>https://www.zingqi.com/technology/index.html</loc>
+    
+    <lastmod>2018-04-21T05:35:06.217Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.zingqi.com/board/index.html</loc>
     
     <lastmod>2018-04-21T05:35:06.216Z</lastmod>
     
@@ -156,7 +156,7 @@
   </url>
   
   <url>
-    <loc>https://www.zingqi.com/board/index.html</loc>
+    <loc>https://www.zingqi.com/categories/index.html</loc>
     
     <lastmod>2018-04-21T05:35:06.216Z</lastmod>
     
