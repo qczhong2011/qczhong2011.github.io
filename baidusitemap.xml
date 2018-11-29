@@ -17,16 +17,16 @@
     
     
   <url>
-    <loc>https://www.zingqi.com/2018/04-27/zqc_elegantly_switch_from_ubuntu14_to_debian9.html</loc>
+    <loc>https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html</loc>
     <lastmod>2018-04-27T16:23:02.569Z</lastmod>
     <data>
         <display>
-        <title>Ubuntu14.04 切换到Debian 9</title>
-        <pubTime>2018-04-27T07:13:16.000Z</pubTime>
+        <title>服务器自动解析并部署Hexo</title>
+        <pubTime>2018-04-14T07:54:47.000Z</pubTime>
         
-        <tag>ubuntu</tag>
+        <tag>Hexo</tag>
          
-        <tag>debian</tag>
+        <tag>nvm</tag>
          
          
            
@@ -39,16 +39,16 @@
 
     
   <url>
-    <loc>https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html</loc>
+    <loc>https://www.zingqi.com/2018/04-27/zqc_elegantly_switch_from_ubuntu14_to_debian9.html</loc>
     <lastmod>2018-04-27T16:23:02.569Z</lastmod>
     <data>
         <display>
-        <title>服务器自动解析并部署Hexo</title>
-        <pubTime>2018-04-14T07:54:47.000Z</pubTime>
+        <title>Ubuntu14.04 切换到Debian 9</title>
+        <pubTime>2018-04-27T07:13:16.000Z</pubTime>
         
-        <tag>Hexo</tag>
+        <tag>ubuntu</tag>
          
-        <tag>nvm</tag>
+        <tag>debian</tag>
          
          
            
