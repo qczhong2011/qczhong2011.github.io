@@ -85,26 +85,6 @@
 
     
   <url>
-    <loc>https://www.zingqi.com/2018/04-17/zqc_mount_new_hardisk_on_ubuntu14.04.html</loc>
-    <lastmod>2018-04-26T16:26:03.344Z</lastmod>
-    <data>
-        <display>
-        <title>Ubuntu14.04 新增硬盘挂载</title>
-        <pubTime>2018-04-17T07:12:07.000Z</pubTime>
-        
-        <tag>fdisk</tag>
-         
-         
-           
-             
-              <breadCrumb title="Question" url="https://www.zingqi.com/categories/Question/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.zingqi.com/2018/04-14/zqc_install_git_on_linux_via_sourcecode.html</loc>
     <lastmod>2018-04-26T16:26:03.344Z</lastmod>
     <data>
@@ -120,6 +100,26 @@
            
              
               <breadCrumb title="Tech" url="https://www.zingqi.com/categories/Tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.zingqi.com/2018/04-17/zqc_mount_new_hardisk_on_ubuntu14.04.html</loc>
+    <lastmod>2018-04-26T16:26:03.344Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu14.04 新增硬盘挂载</title>
+        <pubTime>2018-04-17T07:12:07.000Z</pubTime>
+        
+        <tag>fdisk</tag>
+         
+         
+           
+             
+              <breadCrumb title="Question" url="https://www.zingqi.com/categories/Question/"/>
           
         </display>
     </data>
