@@ -3,4 +3,3 @@ https://www.zingqi.com/2018/04-17/zqc_mount_new_hardisk_on_ubuntu14.04.html
 https://www.zingqi.com/2018/04-16/zqc_start_virtualbox_error_on_ubuntu14.04.html
 https://www.zingqi.com/2018/04-14/zqc_deploy_hexo_on_aliyun_ecs_server.html
 https://www.zingqi.com/2018/04-14/zqc_install_git_on_linux_via_sourcecode.html
-https://www.zingqi.com/2018/04-03/zqc_hello_world_on_hexo.html
