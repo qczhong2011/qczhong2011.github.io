@@ -26,7 +26,7 @@
     "hexo-server": "^0.2.2",
     "hexo-symbols-count-time": "^0.3.2",
     "hexo-wordcount": "^3.0.2",
-    "valine": "^1.1.9-beta9"
+    "valine": "^1.5.0"
   },
   "devDependencies": {
     "gulp-htmlclean": "^2.7.22",
